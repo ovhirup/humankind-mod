@@ -349,10 +349,74 @@ Full path, in order:
 
 **Verdict: the official Mod Editor genuinely works under UTM
 virtualization on this Apple Silicon Mac, for $0.** No Parallels purchase
-or Windows license needed for at least this much of the workflow. Next
-untested step: "2. Content" tab → "Import from Archives" to actually pull
-in the Civilizations collections and start building the `FactionDefinition`
-for Bharat, per §10 of the official guide.
+or Windows license needed for at least this much of the workflow.
+
+### Confirmed: real Civilizations collection list (this tool build, 2026-07-19)
+
+Two gotchas hit before reaching this screen, both resolved:
+- The "2. Content"/"3. Build"/"4. Publish" tabs were unclickable at first —
+  turned out the mod must be explicitly **initialized** first: "1. Profile"
+  tab has a "Mod Name" field + green **"Initialize Mod"** button that must
+  be clicked before the other tabs unlock. Not mentioned in the PDF guide's
+  excerpted section — likely a newer tool version's added step.
+- Unity Hub didn't know about the wizard-created project — had to
+  **ADD** it manually by browsing to
+  `C:\Users\<user>\Documents\HumankindModding\Bharat` (picking the project
+  folder itself, not opening/importing a file inside it — doing the latter
+  by mistake opened an unrelated blank project and threw "Couldn't
+  decompress package" errors).
+
+This tool version labels the guide's "Import from Archives" step
+**"Override from Archives"** (2. Content tab → "Gameplay Data & Visual
+Mapping" section). Clicking it opens an "Override Element(s)" browser over
+every top-level category folder — confirmed far more numerous than the
+walkthrough post implied: `_DLC_Wonders`, `_DLC01`–`_DLC05`, `AI`,
+`CameraSequence`, `Civilizations`, `ColorBlindPresets`, `Deprecated`,
+`Diplomacy`, `EffectMapper`, `Empire`, `EndGameDefinition`, `Fame`,
+`GameDifficulty`, `GameSpeed`, `HelpLayer`, `Localization`, `Narrative`,
+`NarratorSentences`, `Scenarios`, `Settlement`, `SettlementPresentation`,
+`Statistics`, `Subtitles`, `Technologies`, `Tutorial`, and more below the
+visible scroll area.
+
+**`Civilizations` expands to these collections** (confirmed real, matches
+and extends the PDF guide's §10 object names — `FactionDefinition` in the
+guide's prose corresponds to `CivilizationDefinition` here,
+`FactionUIMapper` to `CivilizationUIMappers`):
+
+```
+AffinitiesCostModifiers          IndependentPeopleUIMappers
+AffinitiesDescriptor             LegacyTrait
+AffinitiesRPN                    LegacyTraitDescriptor
+AffinityDefinition                LegacyTraitUIMappers
+AffinityUIMappers                LesserFactionDefinition
+CivilizationDefinition            LesserFactionUIMappers
+CivilizationPawnHairColor         MinorFactionDescriptor
+CivilizationPawnSkinColor         MinorFactionSpawnerVisualAffinityDefinitions
+CivilizationTrait                 MinorPatronageTreatyCollection
+CivilizationTraitDescriptor       MinorTreatyDescriptorCollection
+CivilizationTraitUIMappers        PatronageDefinition
+CivilizationUIMappers             PatronageDescriptorMapper
+IndependentPeopleArmyPatternDefinition   PatronageDescriptors
+IndependentPeopleDefinition        PatronageRpnCollection
+IndependentPeopleEraDefinition      PatronageUIMapper
+IndependentPeopleRPN
+IndependentPeopleSpawnerDefinition
+```
+
+For building the Bharat culture, the collections that matter (mapping to
+DESIGN.md's plan) are: **CivilizationDefinition** (the culture itself —
+Era Reference, Faction Type, Gameplay Orientation, Legacy Trait
+References), **CivilizationUIMappers** (name/description/images, must
+share the exact object name with its Definition), **LegacyTrait** +
+**LegacyTraitDescriptor** + **LegacyTraitUIMappers** (Bharat's unique
+bonus/ability), and likely **AffinityDefinition**/**AffinityUIMappers** to
+reference an existing Affinity. `CivilizationTrait*` may also be relevant
+if Bharat needs a distinct trait beyond the Legacy Trait — needs hands-on
+confirmation of the difference between "Legacy Trait" and "Civilization
+Trait" once building starts.
+
+Next untested step: actually select and import these collections, then
+create the first `CivilizationDefinition` object for Bharat.
 - [ ] Since the Unity-Editor "Import from Archives" categories
       (LandUnit/Descriptors/Definitions/UIMappers) are no longer directly
       reachable, figure out whether BepInEx-based mods can read/patch these
