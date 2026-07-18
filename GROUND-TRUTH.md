@@ -516,9 +516,29 @@ name — the formula/expression field (`0.03 * Source....`) did not need
 touching, it's a live expression referencing whatever property populates
 the row, so the multiplier and scaling logic carried over automatically.
 
-Not yet done: `LegacyTraitUIMappers` entry for Bharat (the trait's own
-display name/description, parallel to what we did for
-`CivilizationUIMappers`) — still pending.
+### Legacy Trait UI Mapper completed (2026-07-19)
+
+Duplicated `LegacyTraitUIMappers`' India entry → renamed to
+`LegacyTrait_Era6_Bharat` (matching the FactionTrait's exact name, same
+rule as before). Set Title/Description keys
+(`%LegacyTrait_Era6_BharatTitle` / `...BharatDescription`), added their
+localization values ("Mother Industries" / the effect description), and
+set **Color to saffron `#FF9933`** (r:1, g:0.6, b:0.2 in the asset file) —
+echoing the Azad Hind tricolour visual language from civ7-netaji-mod.
+Symbol/Images left pointing at India's placeholder, per DESIGN.md's
+later-art-stage plan (Color is a simple value field so costs nothing to
+set now; Symbol/Images need real art assets, a different category of
+work).
+
+**Gotcha hit and fixed:** an edited field (Description) silently did not
+save on the first attempt — verified after export by grepping the raw
+`.asset` YAML on the Mac side and finding the old India key still there
+despite having "edited" it in the Inspector. **Lesson: don't trust that an
+Inspector text field edit stuck just because the UI showed the new text —
+verify by re-opening the object (or, as we did, checking the exported
+YAML) before considering a field change done.** Root cause unconfirmed
+(possibly a focus-loss/Enter-key timing issue in the VM), but the fix was
+simply re-doing the edit and confirming via export.
 
 ### First real artifact created (2026-07-19): `Civilization_Era6_Bharat`
 
