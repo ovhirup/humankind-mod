@@ -1,0 +1,4054 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9066951951581629997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era5_BritishEmpire
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era5_BritishEmpireTitle'
+  Description: '%Civilization_Era5_BritishEmpireDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: 1798738932
+        b: 1142311999
+        c: -433133940
+        d: 1753209950
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: 265879628
+        b: 1148042789
+        c: -1055296894
+        d: 2071550978
+    serializableKey: Large
+  - Value:
+      guid:
+        a: -2037800016
+        b: 1326500510
+        c: -631495760
+        d: -1531741785
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: -1458066563
+        b: 1117653427
+        c: 1913382303
+        d: -654676149
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: 265879628
+        b: 1148042789
+        c: -1055296894
+        d: 2071550978
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era5_BritishEmpire]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era5_BritishEmpire_Quote'
+  Adjective: '%Civilization_Era5_BritishEmpire_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &-9032658900656883547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era1_EgyptianKingdom
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era1_EgyptianKingdomTitle'
+  Description: '%Civilization_Era1_EgyptianKingdomDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: -1274063955
+        b: 1293208089
+        c: -811396735
+        d: -73256701
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: 1387560721
+        b: 1116854179
+        c: 852401544
+        d: 299084358
+    serializableKey: Large
+  - Value:
+      guid:
+        a: 971904038
+        b: 1084892723
+        c: 1250017471
+        d: 1727004855
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: -801896099
+        b: 1191981850
+        c: -529215814
+        d: 188354300
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: 1387560721
+        b: 1116854179
+        c: 852401544
+        d: 299084358
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era1_EgyptianKingdom]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era1_EgyptianKingdom_Quote'
+  Adjective: '%Civilization_Era1_EgyptianKingdom_Adjective'
+  UIConstructibleCulture: Culture_Era1_Mesopotamian
+--- !u!114 &-8914681410998226437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era1_MycenaeanCivilization
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era1_MycenaeanCivilizationTitle'
+  Description: '%Civilization_Era1_MycenaeanCivilizationDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: -697908546
+        b: 1321138826
+        c: -1638911587
+        d: 122999063
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: -609584002
+        b: 1314096882
+        c: -2136194655
+        d: -235480487
+    serializableKey: Large
+  - Value:
+      guid:
+        a: -1705849210
+        b: 1295462805
+        c: 889790907
+        d: 415304054
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 730983608
+        b: 1179636034
+        c: -1173826907
+        d: -1515942099
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: -609584002
+        b: 1314096882
+        c: -2136194655
+        d: -235480487
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era1_MycenaeanCivilization]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era1_MycenaeanCivilization_Quote'
+  Adjective: '%Civilization_Era1_MycenaeanCivilization_Adjective'
+  UIConstructibleCulture: Culture_Era1_Mesopotamian
+--- !u!114 &-8532208582078698366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era5_Siam
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era5_SiamTitle'
+  Description: '%Civilization_Era5_SiamDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: -1551652429
+        b: 1267057103
+        c: -820672125
+        d: 994789885
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: 67845072
+        b: 1182462490
+        c: -538996328
+        d: 1382125458
+    serializableKey: Large
+  - Value:
+      guid:
+        a: -28578840
+        b: 1092243219
+        c: 371719313
+        d: 153472326
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 931191266
+        b: 1337329821
+        c: 100678815
+        d: 1889164003
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: 67845072
+        b: 1182462490
+        c: -538996328
+        d: 1382125458
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era5_Siam]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era5_Siam_Quote'
+  Adjective: '%Civilization_Era5_Siam_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &-8235096887815493512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era1_Babylon
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era1_BabylonTitle'
+  Description: '%Civilization_Era1_BabylonDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: -535930798
+        b: 1169760996
+        c: -1729578821
+        d: -1676384044
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: 363324599
+        b: 1215257778
+        c: 1337365181
+        d: -1849205811
+    serializableKey: Large
+  - Value:
+      guid:
+        a: 735933193
+        b: 1131947600
+        c: 802768286
+        d: -999021911
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 761830154
+        b: 1075714468
+        c: 1358656667
+        d: -441631551
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: 363324599
+        b: 1215257778
+        c: 1337365181
+        d: -1849205811
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era1_Babylon]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era1_Babylon_Quote'
+  Adjective: '%Civilization_Era1_Babylon_Adjective'
+  UIConstructibleCulture: Culture_Era1_Mesopotamian
+--- !u!114 &-8098111618671392884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era5_FrenchRepublic
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era5_FrenchRepublicTitle'
+  Description: '%Civilization_Era5_FrenchRepublicDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: -883569430
+        b: 1092758215
+        c: -902221688
+        d: -617158951
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: -1170181201
+        b: 1095612673
+        c: -708185185
+        d: -1446159444
+    serializableKey: Large
+  - Value:
+      guid:
+        a: 1703092334
+        b: 1092063008
+        c: 192909450
+        d: 2081445626
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: -845221198
+        b: 1112402532
+        c: -594370128
+        d: -9733170
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: -1170181201
+        b: 1095612673
+        c: -708185185
+        d: -1446159444
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era5_FrenchRepublic]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era5_FrenchRepublic_Quote'
+  Adjective: '%Civilization_Era5_FrenchRepublic_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &-7669854094213994833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era2_Goths
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era2_GothsTitle'
+  Description: '%Civilization_Era2_GothsDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: 319470888
+        b: 1320340891
+        c: 392663433
+        d: -388409155
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: -545592212
+        b: 1212586982
+        c: 1728419487
+        d: 1949536004
+    serializableKey: Large
+  - Value:
+      guid:
+        a: -117694919
+        b: 1270763468
+        c: -1142015558
+        d: -224688437
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 975579316
+        b: 1191031005
+        c: -2014935391
+        d: -1003100822
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: -545592212
+        b: 1212586982
+        c: 1728419487
+        d: 1949536004
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era2_Goths]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era2_Goths_Quote'
+  Adjective: '%Civilization_Era2_Goths_Adjective'
+  UIConstructibleCulture: Culture_Era2_GrecoRoman
+--- !u!114 &-7619263381331516614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era4_Spain
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era4_SpainTitle'
+  Description: '%Civilization_Era4_SpainDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: -342073341
+        b: 1104632826
+        c: -1622334026
+        d: 672674493
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: -822325234
+        b: 1088688206
+        c: -1339877978
+        d: -142284667
+    serializableKey: Large
+  - Value:
+      guid:
+        a: 1018444383
+        b: 1152007004
+        c: -935310968
+        d: -1233364400
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 357416182
+        b: 1248515155
+        c: -822048353
+        d: -1963337566
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: -822325234
+        b: 1088688206
+        c: -1339877978
+        d: -142284667
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era4_Spain]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era4_Spain_Quote'
+  Adjective: '%Civilization_Era4_Spain_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &-7527307385015957180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era6_Turkey
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era6_TurkeyTitle'
+  Description: '%Civilization_Era6_TurkeyDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: -1838436744
+        b: 1278228235
+        c: -1871875170
+        d: 335262960
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: -555030540
+        b: 1198364812
+        c: -1600253263
+        d: 1582558798
+    serializableKey: Large
+  - Value:
+      guid:
+        a: 722515333
+        b: 1291040639
+        c: -840469620
+        d: -1998503439
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: -1331178479
+        b: 1194431450
+        c: -1833514348
+        d: 1807779201
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: -555030540
+        b: 1198364812
+        c: -1600253263
+        d: 1582558798
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era6_Turkey]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era6_Turkey_Quote'
+  Adjective: '%Civilization_Era6_Turkey_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &-6890165811868075757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era2_RomanEmpire
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era2_RomanEmpireTitle'
+  Description: '%Civilization_Era2_RomanEmpireDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: 939339475
+        b: 1110062271
+        c: -660430433
+        d: -264897077
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: -783869002
+        b: 1140306691
+        c: -1508515690
+        d: -635313735
+    serializableKey: Large
+  - Value:
+      guid:
+        a: 1063130376
+        b: 1084478469
+        c: 1580615301
+        d: 711499783
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: -2129503080
+        b: 1178616033
+        c: -1250607463
+        d: -1305660841
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: -783869002
+        b: 1140306691
+        c: -1508515690
+        d: -635313735
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era2_RomanEmpire]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era2_RomanEmpire_Quote'
+  Adjective: '%Civilization_Era2_RomanEmpire_Adjective'
+  UIConstructibleCulture: Culture_Era2_GrecoRoman
+--- !u!114 &-6765607702381161374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era5_AustriaHungary
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era5_AustriaHungaryTitle'
+  Description: '%Civilization_Era5_AustriaHungaryDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: 1466030160
+        b: 1113943231
+        c: 354312065
+        d: -1337903872
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: 208049179
+        b: 1124117320
+        c: -187881804
+        d: -1562078922
+    serializableKey: Large
+  - Value:
+      guid:
+        a: 305688860
+        b: 1194115486
+        c: 773137825
+        d: 808224619
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: -476579740
+        b: 1136865089
+        c: 1946665091
+        d: -1819877167
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: 208049179
+        b: 1124117320
+        c: -187881804
+        d: -1562078922
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era5_AustriaHungary]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era5_AustriaHungary_Quote'
+  Adjective: '%Civilization_Era5_AustriaHungary_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &-6644193877021605522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era5_ZuluKingdom
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era5_ZuluKingdomTitle'
+  Description: '%Civilization_Era5_ZuluKingdomDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: -1995227522
+        b: 1199122536
+        c: -1116473694
+        d: 634561386
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: -146161850
+        b: 1282051991
+        c: -994835806
+        d: 1032002462
+    serializableKey: Large
+  - Value:
+      guid:
+        a: 624115331
+        b: 1094711137
+        c: 498627749
+        d: -587137359
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: -1803156731
+        b: 1317820812
+        c: 821079992
+        d: -1895187230
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: -146161850
+        b: 1282051991
+        c: -994835806
+        d: 1032002462
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era5_ZuluKingdom]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era5_ZuluKingdom_Quote'
+  Adjective: '%Civilization_Era5_ZuluKingdom_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &-6318064658942125286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era4_MughalEmpire
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era4_MughalEmpireTitle'
+  Description: '%Civilization_Era4_MughalEmpireDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: 1775679337
+        b: 1304138517
+        c: 590298253
+        d: 725516516
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: 1380018629
+        b: 1291889638
+        c: 272192699
+        d: 904657000
+    serializableKey: Large
+  - Value:
+      guid:
+        a: -1374497563
+        b: 1184365304
+        c: 762384018
+        d: -1637226151
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: -2020233235
+        b: 1288986310
+        c: -1914906962
+        d: 1526998167
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: 1380018629
+        b: 1291889638
+        c: 272192699
+        d: 904657000
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era4_MughalEmpire]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era4_MughalEmpire_Quote'
+  Adjective: '%Civilization_Era4_MughalEmpire_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &-5802995675828138762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era4_Holland
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era4_HollandTitle'
+  Description: '%Civilization_Era4_HollandDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: -724980443
+        b: 1215425015
+        c: 297299384
+        d: 1105483302
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: 964535549
+        b: 1230239630
+        c: -1880091487
+        d: 1610660120
+    serializableKey: Large
+  - Value:
+      guid:
+        a: -662528637
+        b: 1330671941
+        c: 93463218
+        d: 247864747
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 93717263
+        b: 1259637338
+        c: -751968631
+        d: 1089488228
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: 964535549
+        b: 1230239630
+        c: -1880091487
+        d: 1610660120
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era4_Holland]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era4_Holland_Quote'
+  Adjective: '%Civilization_Era4_Holland_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &-5513760431372026913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era6_Brazil
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era6_BrazilTitle'
+  Description: '%Civilization_Era6_BrazilDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: -112353263
+        b: 1154856100
+        c: -494188904
+        d: 1784391921
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: -392279476
+        b: 1157884891
+        c: 1294203582
+        d: 1437713603
+    serializableKey: Large
+  - Value:
+      guid:
+        a: -707728022
+        b: 1339097050
+        c: -740339290
+        d: -1952748226
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 2079076564
+        b: 1111246782
+        c: -356250489
+        d: -1596239185
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: -392279476
+        b: 1157884891
+        c: 1294203582
+        d: 1437713603
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era6_Brazil]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era6_Brazil_Quote'
+  Adjective: '%Civilization_Era6_Brazil_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &-5144028919290550790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era4_PolishKingdom
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era4_PolishKingdomTitle'
+  Description: '%Civilization_Era4_PolishKingdomDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: -1792577744
+        b: 1197297050
+        c: -618069331
+        d: 1139954432
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: 976077054
+        b: 1295344849
+        c: 405181616
+        d: 967685046
+    serializableKey: Large
+  - Value:
+      guid:
+        a: -786099044
+        b: 1326924081
+        c: -841699158
+        d: 1095257483
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 1725939205
+        b: 1211095367
+        c: -1255017302
+        d: 847492932
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: 976077054
+        b: 1295344849
+        c: 405181616
+        d: 967685046
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era4_PolishKingdom]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era4_PolishKingdom_Quote'
+  Adjective: '%Civilization_Era4_PolishKingdom_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &-5070132871734206465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era1_Phoenicia
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era1_PhoeniciaTitle'
+  Description: '%Civilization_Era1_PhoeniciaDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: 171684421
+        b: 1301790957
+        c: 1516745637
+        d: -515084645
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: -1020429915
+        b: 1222648854
+        c: 1926051516
+        d: -186322432
+    serializableKey: Large
+  - Value:
+      guid:
+        a: 2102888410
+        b: 1097199425
+        c: -2145132411
+        d: 1512437788
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: -364703785
+        b: 1302546019
+        c: -606756430
+        d: -925112052
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: -1020429915
+        b: 1222648854
+        c: 1926051516
+        d: -186322432
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era1_Phoenicia]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era1_Phoenicia_Quote'
+  Adjective: '%Civilization_Era1_Phoenicia_Adjective'
+  UIConstructibleCulture: Culture_Era1_Mesopotamian
+--- !u!114 &-4634715523061358186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era0_DefaultTribe
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era0_DefaultTribeTitle'
+  Description: '%Civilization_Era0_DefaultTribeDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: 1489519632
+        b: 1112078981
+        c: -621826376
+        d: -179275665
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: 598701598
+        b: 1084745928
+        c: 1614161582
+        d: -1650259877
+    serializableKey: Large
+  - Value:
+      guid:
+        a: 1336461967
+        b: 1306019556
+        c: -156222034
+        d: 1128449873
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 186483936
+        b: 1152740508
+        c: -1740390993
+        d: -1577345000
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: 598701598
+        b: 1084745928
+        c: 1614161582
+        d: -1650259877
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era0_DefaultTribe_Quote'
+  Adjective: 
+  UIConstructibleCulture: 
+--- !u!114 &-3679319527741208114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era5_Germany
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era5_GermanyTitle'
+  Description: '%Civilization_Era5_GermanyDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: -1038130190
+        b: 1165756294
+        c: -1523394416
+        d: -1376835305
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: -971383757
+        b: 1319992823
+        c: -758346824
+        d: 65131559
+    serializableKey: Large
+  - Value:
+      guid:
+        a: 276547662
+        b: 1279608910
+        c: 1709611689
+        d: 632658404
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 991483605
+        b: 1229788018
+        c: 1411954109
+        d: -132482639
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: -971383757
+        b: 1319992823
+        c: -758346824
+        d: 65131559
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era5_Germany]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era5_Germany_Quote'
+  Adjective: '%Civilization_Era5_Germany_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &-3617035991048826896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era4_VenetianRepublic
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era4_VenetianRepublicTitle'
+  Description: '%Civilization_Era4_VenetianRepublicDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: -1264272352
+        b: 1148179819
+        c: 2039907514
+        d: 1918728711
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: 29675137
+        b: 1265113434
+        c: -1694376556
+        d: 303437062
+    serializableKey: Large
+  - Value:
+      guid:
+        a: -758766297
+        b: 1221449439
+        c: 1291381687
+        d: 1880027186
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: -888550585
+        b: 1097450248
+        c: 1233229197
+        d: 1602860536
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: 29675137
+        b: 1265113434
+        c: -1694376556
+        d: 303437062
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era4_VenetianRepublic]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era4_VenetianRepublic_Quote'
+  Adjective: '%Civilization_Era4_VenetianRepublic_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &-3124738613845600137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era5_RussianEmpire
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era5_RussianEmpireTitle'
+  Description: '%Civilization_Era5_RussianEmpireDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: -80865332
+        b: 1123485558
+        c: 224240818
+        d: -306337875
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: -1251206468
+        b: 1215087264
+        c: 260307884
+        d: 1322755864
+    serializableKey: Large
+  - Value:
+      guid:
+        a: 821470859
+        b: 1129731441
+        c: -1568775028
+        d: 1296775732
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 364844965
+        b: 1186523135
+        c: 1824396458
+        d: 1910303001
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: -1251206468
+        b: 1215087264
+        c: 260307884
+        d: 1322755864
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era5_RussianEmpire]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era5_RussianEmpire_Quote'
+  Adjective: '%Civilization_Era5_RussianEmpire_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &-3057068766980354048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era2_Huns
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era2_HunsTitle'
+  Description: '%Civilization_Era2_HunsDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: 1374861088
+        b: 1188298573
+        c: 562268319
+        d: -911341395
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: -1418283296
+        b: 1147140969
+        c: 1195258527
+        d: -1633361403
+    serializableKey: Large
+  - Value:
+      guid:
+        a: 1887781789
+        b: 1148082054
+        c: 599770013
+        d: 1359977307
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: -1737018929
+        b: 1278812145
+        c: -731152484
+        d: -1616672232
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: -1418283296
+        b: 1147140969
+        c: 1195258527
+        d: -1633361403
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era2_Huns]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era2_Huns_Quote'
+  Adjective: '%Civilization_Era2_Huns_Adjective'
+  UIConstructibleCulture: Culture_Era2_GrecoRoman
+--- !u!114 &-2467568273064054441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era3_KhmerEmpire
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era3_KhmerEmpireTitle'
+  Description: '%Civilization_Era3_KhmerEmpireDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: -1678997339
+        b: 1127451852
+        c: 665751721
+        d: 1139312796
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: -568679727
+        b: 1116093381
+        c: -232189773
+        d: -1972250025
+    serializableKey: Large
+  - Value:
+      guid:
+        a: 1089504496
+        b: 1148946953
+        c: -314010183
+        d: -2110153106
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 867729048
+        b: 1217989756
+        c: 1402815134
+        d: 2007132851
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: -568679727
+        b: 1116093381
+        c: -232189773
+        d: -1972250025
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era3_KhmerEmpire]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era3_KhmerEmpire_Quote'
+  Adjective: '%Civilization_Era3_KhmerEmpire_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &-2453494413011427222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era2_CelticCivilization
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era2_CelticCivilizationTitle'
+  Description: '%Civilization_Era2_CelticCivilizationDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: 255994843
+        b: 1074675310
+        c: 1362434471
+        d: -2121035281
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: -989855751
+        b: 1200304880
+        c: 651856807
+        d: 511175345
+    serializableKey: Large
+  - Value:
+      guid:
+        a: -1571539163
+        b: 1282154007
+        c: 1252262528
+        d: -22609894
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: -622080381
+        b: 1311178399
+        c: 1743810182
+        d: -1195420017
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: -989855751
+        b: 1200304880
+        c: 651856807
+        d: 511175345
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era2_CelticCivilization]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era2_CelticCivilization_Quote'
+  Adjective: '%Civilization_Era2_CelticCivilization_Adjective'
+  UIConstructibleCulture: Culture_Era2_GrecoRoman
+--- !u!114 &-1949108821262302468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era1_Assyria
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era1_AssyriaTitle'
+  Description: '%Civilization_Era1_AssyriaDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: -1743479787
+        b: 1201733592
+        c: 1330317756
+        d: -365588545
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: 1316815280
+        b: 1112708117
+        c: -1394657383
+        d: 892554481
+    serializableKey: Large
+  - Value:
+      guid:
+        a: -1691077116
+        b: 1185251815
+        c: 2001452421
+        d: 2103196595
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: -1738538369
+        b: 1233802785
+        c: 1747691666
+        d: -2134708826
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: 1316815280
+        b: 1112708117
+        c: -1394657383
+        d: 892554481
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era1_Assyria]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era1_Assyria_Quote'
+  Adjective: '%Civilization_Era1_Assyria_Adjective'
+  UIConstructibleCulture: Culture_Era1_Mesopotamian
+--- !u!114 &-1873950042829143714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era3_Vikings
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era3_VikingsTitle'
+  Description: '%Civilization_Era3_VikingsDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: -563896272
+        b: 1112362402
+        c: 348531134
+        d: -1220447934
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: 479368818
+        b: 1149357547
+        c: -185774206
+        d: 1988831839
+    serializableKey: Large
+  - Value:
+      guid:
+        a: -979346243
+        b: 1136316721
+        c: -1853343856
+        d: -350253922
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: -797692007
+        b: 1281092258
+        c: -1838108227
+        d: 564647520
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: 479368818
+        b: 1149357547
+        c: -185774206
+        d: 1988831839
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era3_Vikings]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era3_Vikings_Quote'
+  Adjective: '%Civilization_Era3_Vikings_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &-1808975519710966800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era2_Carthage
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era2_CarthageTitle'
+  Description: '%Civilization_Era2_CarthageDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: -1308553480
+        b: 1319209888
+        c: 1737195136
+        d: 1922333016
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: 674862437
+        b: 1077664070
+        c: 1215035532
+        d: 1417385632
+    serializableKey: Large
+  - Value:
+      guid:
+        a: 1265472560
+        b: 1283887060
+        c: 877156791
+        d: -1909659587
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 962702901
+        b: 1198849013
+        c: 394373043
+        d: -1239244361
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: 674862437
+        b: 1077664070
+        c: 1215035532
+        d: 1417385632
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era2_Carthage]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era2_Carthage_Quote'
+  Adjective: '%Civilization_Era2_Carthage_Adjective'
+  UIConstructibleCulture: Culture_Era2_GrecoRoman
+--- !u!114 &-1690580837063133029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era4_JoseonKorea
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era4_JoseonKoreaTitle'
+  Description: '%Civilization_Era4_JoseonKoreaDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: 393920323
+        b: 1295092937
+        c: 1367932556
+        d: -832857719
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: -1077751178
+        b: 1192840698
+        c: -357366386
+        d: 952235423
+    serializableKey: Large
+  - Value:
+      guid:
+        a: 1645089027
+        b: 1101478814
+        c: -2120305235
+        d: -2071055237
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: -1710284501
+        b: 1117407607
+        c: -468327500
+        d: -522378474
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: -1077751178
+        b: 1192840698
+        c: -357366386
+        d: 952235423
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era4_JoseonKorea]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era4_JoseonKorea_Quote'
+  Adjective: '%Civilization_Era4_JoseonKorea_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &-1645352184428109213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era4_TokugawaShogunate
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era4_TokugawaShogunateTitle'
+  Description: '%Civilization_Era4_TokugawaShogunateDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: -1129553440
+        b: 1282430346
+        c: 1017516969
+        d: -994899151
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: -1381389918
+        b: 1297641019
+        c: 1507847810
+        d: 1328823800
+    serializableKey: Large
+  - Value:
+      guid:
+        a: 893465837
+        b: 1321589211
+        c: -2010210411
+        d: 70050671
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 787076978
+        b: 1331150823
+        c: 1374442672
+        d: -1290838877
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: -1381389918
+        b: 1297641019
+        c: 1507847810
+        d: 1328823800
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era4_TokugawaShogunate]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era4_TokugawaShogunate_Quote'
+  Adjective: '%Civilization_Era4_TokugawaShogunate_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &-1195801369898580446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: FactionUnknown
+  m_EditorClassIdentifier: 
+  Title: '%Unknown'
+  Description: 
+  Images:
+  - Value:
+      guid:
+        a: 697124176
+        b: 1218979501
+        c: -1596890738
+        d: 1481694661
+    serializableKey: '[Picto]'
+  - Value:
+      guid:
+        a: 697124176
+        b: 1218979501
+        c: -1596890738
+        d: 1481694661
+    serializableKey: Picto
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[FactionUnknown]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: 
+  Adjective: 
+  UIConstructibleCulture: 
+--- !u!114 &-1194556148641979112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era1_Nubia
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era1_NubiaTitle'
+  Description: '%Civilization_Era1_NubiaDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: -1348595798
+        b: 1099105498
+        c: -171534697
+        d: -1669555869
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: -57303648
+        b: 1120205220
+        c: 1237418926
+        d: 889336980
+    serializableKey: Large
+  - Value:
+      guid:
+        a: -1035803839
+        b: 1224930526
+        c: -1528823628
+        d: 1247617041
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: -886561596
+        b: 1241062343
+        c: -1869015163
+        d: 1258793314
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: -57303648
+        b: 1120205220
+        c: 1237418926
+        d: 889336980
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era1_Nubia]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era1_Nubia_Quote'
+  Adjective: '%Civilization_Era1_Nubia_Adjective'
+  UIConstructibleCulture: Culture_Era1_Mesopotamian
+--- !u!114 &-337674441725209593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era6_Egypt
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era6_EgyptTitle'
+  Description: '%Civilization_Era6_EgyptDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: -2042494860
+        b: 1265623975
+        c: 184820379
+        d: -655955858
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: 1611139747
+        b: 1148721590
+        c: 1642094491
+        d: 995856735
+    serializableKey: Large
+  - Value:
+      guid:
+        a: 177738754
+        b: 1182263094
+        c: 1646115211
+        d: 1466561726
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 807588232
+        b: 1159770955
+        c: 1105764521
+        d: -1839194255
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: 1611139747
+        b: 1148721590
+        c: 1642094491
+        d: 995856735
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era6_Egypt]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era6_Egypt_Quote'
+  Adjective: '%Civilization_Era6_Egypt_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &-253039804250983203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era2_Persia
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era2_PersiaTitle'
+  Description: '%Civilization_Era2_PersiaDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: 433444127
+        b: 1075182739
+        c: -642465091
+        d: 241164498
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: -879571954
+        b: 1338354852
+        c: 2088475008
+        d: -1140029448
+    serializableKey: Large
+  - Value:
+      guid:
+        a: 656477121
+        b: 1307372735
+        c: 1688485544
+        d: -525388697
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: -127186428
+        b: 1101540304
+        c: 754975935
+        d: -236606084
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: -879571954
+        b: 1338354852
+        c: 2088475008
+        d: -1140029448
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era2_Persia]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era2_Persia_Quote'
+  Adjective: '%Civilization_Era2_Persia_Adjective'
+  UIConstructibleCulture: Culture_Era1_Mesopotamian
+--- !u!114 &-131982958489173427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era3_HolyRomanEmpire
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era3_HolyRomanEmpireTitle'
+  Description: '%Civilization_Era3_HolyRomanEmpireDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: -1628050995
+        b: 1326621819
+        c: 1666540202
+        d: 1276177391
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: 1688769008
+        b: 1084719495
+        c: -1724348535
+        d: -980413775
+    serializableKey: Large
+  - Value:
+      guid:
+        a: -830808242
+        b: 1161621837
+        c: 1963904659
+        d: -233504744
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: -904427848
+        b: 1112975899
+        c: -38948424
+        d: 855930357
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: 1688769008
+        b: 1084719495
+        c: -1724348535
+        d: -980413775
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era3_HolyRomanEmpire]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era3_HolyRomanEmpire_Quote'
+  Adjective: '%Civilization_Era3_HolyRomanEmpire_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &-91242099735214366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era2_MayaCivilization
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era2_MayaCivilizationTitle'
+  Description: '%Civilization_Era2_MayaCivilizationDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: -1374601954
+        b: 1208879724
+        c: 1264850868
+        d: -1411503921
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: 302772697
+        b: 1198385884
+        c: -686650951
+        d: 153993528
+    serializableKey: Large
+  - Value:
+      guid:
+        a: 347125327
+        b: 1261313962
+        c: -563281223
+        d: -989132358
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 292295561
+        b: 1180575883
+        c: -1015410775
+        d: -1815378302
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: 302772697
+        b: 1198385884
+        c: -686650951
+        d: 153993528
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era2_MayaCivilization]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era2_MayaCivilization_Quote'
+  Adjective: '%Civilization_Era2_MayaCivilization_Adjective'
+  UIConstructibleCulture: Culture_Era2_GrecoRoman
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 763423559, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: CivilizationUIMappers
+  m_EditorClassIdentifier: 
+--- !u!114 &492977219395276591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era6_Japan
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era6_JapanTitle'
+  Description: '%Civilization_Era6_JapanDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: 1303347328
+        b: 1291214060
+        c: 585120899
+        d: -578616995
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: 170421405
+        b: 1334499040
+        c: -2028203614
+        d: -154873060
+    serializableKey: Large
+  - Value:
+      guid:
+        a: -2098117823
+        b: 1270972887
+        c: -900490312
+        d: -1957415683
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 81121157
+        b: 1076494893
+        c: 1661466547
+        d: -1948385939
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: 170421405
+        b: 1334499040
+        c: -2028203614
+        d: -154873060
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era6_Japan]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era6_Japan_Quote'
+  Adjective: '%Civilization_Era6_Japan_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &2093626423321516574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era5_AfsharidPersia
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era5_AfsharidPersiaTitle'
+  Description: '%Civilization_Era5_AfsharidPersiaDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: -1644196470
+        b: 1249372379
+        c: 1307092922
+        d: 220755012
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: -1593663162
+        b: 1243463870
+        c: -929324117
+        d: 2104573642
+    serializableKey: Large
+  - Value:
+      guid:
+        a: 1692202437
+        b: 1156581427
+        c: 941434287
+        d: 316750948
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 2141953685
+        b: 1175899327
+        c: 749065618
+        d: -1367187503
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: -1593663162
+        b: 1243463870
+        c: -929324117
+        d: 2104573642
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era5_AfsharidPersia]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era5_AfsharidPersia_Quote'
+  Adjective: '%Civilization_Era5_AfsharidPersia_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &2500496574905374882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era6_USA
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era6_USATitle'
+  Description: '%Civilization_Era6_USADescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: -495327938
+        b: 1155700962
+        c: 584248720
+        d: 2143552896
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: -1135361777
+        b: 1319689586
+        c: 193203352
+        d: 1221791436
+    serializableKey: Large
+  - Value:
+      guid:
+        a: 1599260940
+        b: 1084045152
+        c: 368006540
+        d: -471613438
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 1394671737
+        b: 1111746643
+        c: 103653019
+        d: -101034717
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: -1135361777
+        b: 1319689586
+        c: 193203352
+        d: 1221791436
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era6_USA]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era6_USA_Quote'
+  Adjective: '%Civilization_Era6_USA_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &2605113003425347438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era6_China
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era6_ChinaTitle'
+  Description: '%Civilization_Era6_ChinaDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: 1835651440
+        b: 1236109945
+        c: 1063485848
+        d: 1316337004
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: 34760844
+        b: 1190784744
+        c: -297025103
+        d: -460972367
+    serializableKey: Large
+  - Value:
+      guid:
+        a: 174115986
+        b: 1137145373
+        c: 86145420
+        d: 740265272
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: -2052925545
+        b: 1246469674
+        c: 280083344
+        d: 1782110130
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: 34760844
+        b: 1190784744
+        c: -297025103
+        d: -460972367
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era6_China]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era6_China_Quote'
+  Adjective: '%Civilization_Era6_China_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &2726026542231312079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era4_IroquoisConfederacy
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era4_IroquoisConfederacyTitle'
+  Description: '%Civilization_Era4_IroquoisConfederacyDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: -656208078
+        b: 1160448737
+        c: 2068069255
+        d: -1290613964
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: -1840712274
+        b: 1112537591
+        c: 97560198
+        d: -900438727
+    serializableKey: Large
+  - Value:
+      guid:
+        a: -132138733
+        b: 1197279133
+        c: -1556727367
+        d: 1691919184
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 528393775
+        b: 1292902804
+        c: -401630326
+        d: -507235658
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: -1840712274
+        b: 1112537591
+        c: 97560198
+        d: -900438727
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era4_IroquoisConfederacy]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era4_IroquoisConfederacy_Quote'
+  Adjective: '%Civilization_Era4_IroquoisConfederacy_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &2946711695232348612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era3_MongolEmpire
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era3_MongolEmpireTitle'
+  Description: '%Civilization_Era3_MongolEmpireDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: -320552798
+        b: 1290187654
+        c: 282359728
+        d: 1820001168
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: -1883264477
+        b: 1179879908
+        c: -126859898
+        d: 1463181916
+    serializableKey: Large
+  - Value:
+      guid:
+        a: -1130996896
+        b: 1267689198
+        c: 1727141297
+        d: 2026802482
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 2040502276
+        b: 1174836114
+        c: 1858343083
+        d: -1939775660
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: -1883264477
+        b: 1179879908
+        c: -126859898
+        d: 1463181916
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era3_MongolEmpire]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era3_MongolEmpire_Quote'
+  Adjective: '%Civilization_Era3_MongolEmpire_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &3017064135952271355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era1_ZhouChina
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era1_ZhouChinaTitle'
+  Description: '%Civilization_Era1_ZhouChinaDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: -624927246
+        b: 1253498042
+        c: -1068296816
+        d: 552923730
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: -982152252
+        b: 1316267136
+        c: 137727127
+        d: -550953219
+    serializableKey: Large
+  - Value:
+      guid:
+        a: -1704784214
+        b: 1254794516
+        c: 251918250
+        d: 2070493282
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 1870679147
+        b: 1272683561
+        c: -1516988797
+        d: -1769914208
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: -982152252
+        b: 1316267136
+        c: 137727127
+        d: -550953219
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era1_ZhouChina]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era1_ZhouChina_Quote'
+  Adjective: '%Civilization_Era1_ZhouChina_Adjective'
+  UIConstructibleCulture: Culture_Era1_Mesopotamian
+--- !u!114 &3090372593292062152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era5_Italy
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era5_ItalyTitle'
+  Description: '%Civilization_Era5_ItalyDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: 1387034933
+        b: 1237795285
+        c: 1812267164
+        d: -255927909
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: -1767793472
+        b: 1093049902
+        c: -1298614866
+        d: 1327517669
+    serializableKey: Large
+  - Value:
+      guid:
+        a: -965099379
+        b: 1289289861
+        c: -1824953170
+        d: 322141146
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 1689245608
+        b: 1338857862
+        c: -759915120
+        d: 154063637
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: -1767793472
+        b: 1093049902
+        c: -1298614866
+        d: 1327517669
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era5_Italy]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era5_Italy_Quote'
+  Adjective: '%Civilization_Era5_Italy_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &3759895011799475964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era6_India
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era6_IndiaTitle'
+  Description: '%Civilization_Era6_IndiaDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: 1617214644
+        b: 1160764977
+        c: 1806689677
+        d: -2137999070
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: -1610663397
+        b: 1113820629
+        c: -1967347048
+        d: -1477100101
+    serializableKey: Large
+  - Value:
+      guid:
+        a: -669353459
+        b: 1131268302
+        c: -1008601154
+        d: -279947382
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 1780496207
+        b: 1148081590
+        c: 562441350
+        d: -409104424
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: -1610663397
+        b: 1113820629
+        c: -1967347048
+        d: -1477100101
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era6_India]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era6_India_Quote'
+  Adjective: '%Civilization_Era6_India_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &4171228037088872569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era3_AztecEmpire
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era3_AztecEmpireTitle'
+  Description: '%Civilization_Era3_AztecEmpireDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: 1366618662
+        b: 1297384213
+        c: 161413252
+        d: 2113603308
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: -1510555
+        b: 1162443021
+        c: 1108651139
+        d: 7814529
+    serializableKey: Large
+  - Value:
+      guid:
+        a: 1032946690
+        b: 1086466997
+        c: 938031018
+        d: 1188018628
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: -1700754107
+        b: 1314365471
+        c: 181141415
+        d: 927506522
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: -1510555
+        b: 1162443021
+        c: 1108651139
+        d: 7814529
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era3_AztecEmpire]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era3_AztecEmpire_Quote'
+  Adjective: '%Civilization_Era3_AztecEmpire_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &4438654968165479103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era1_HittiteEmpire
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era1_HittiteEmpireTitle'
+  Description: '%Civilization_Era1_HittiteEmpireDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: 1694868516
+        b: 1164260222
+        c: -1189690220
+        d: -945509325
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: -2071256738
+        b: 1235140178
+        c: 1017720476
+        d: 1074543989
+    serializableKey: Large
+  - Value:
+      guid:
+        a: 1076700721
+        b: 1212675902
+        c: 1125560482
+        d: 112229776
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: -455302245
+        b: 1183477801
+        c: -1647918661
+        d: -1038385051
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: -2071256738
+        b: 1235140178
+        c: 1017720476
+        d: 1074543989
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era1_HittiteEmpire]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era1_HittiteEmpire_Quote'
+  Adjective: '%Civilization_Era1_HittiteEmpire_Adjective'
+  UIConstructibleCulture: Culture_Era1_Mesopotamian
+--- !u!114 &4459235635677992588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era2_AncientGreece
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era2_AncientGreeceTitle'
+  Description: '%Civilization_Era2_AncientGreeceDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: 242888174
+        b: 1274596850
+        c: 385296824
+        d: 1509636631
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: -706857376
+        b: 1138037544
+        c: -511900797
+        d: -809572706
+    serializableKey: Large
+  - Value:
+      guid:
+        a: 1070310300
+        b: 1238058785
+        c: -352580166
+        d: -652809945
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: -1274891139
+        b: 1245105933
+        c: 1759044511
+        d: 207127597
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: -706857376
+        b: 1138037544
+        c: -511900797
+        d: -809572706
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era2_AncientGreece]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era2_AncientGreece_Quote'
+  Adjective: '%Civilization_Era2_AncientGreece_Adjective'
+  UIConstructibleCulture: Culture_Era2_GrecoRoman
+--- !u!114 &4557081960830728462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era6_Australia
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era6_AustraliaTitle'
+  Description: '%Civilization_Era6_AustraliaDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: 789190160
+        b: 1290662842
+        c: -1192656240
+        d: -1899733601
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: -1942964502
+        b: 1094166987
+        c: -1227698549
+        d: 1358922916
+    serializableKey: Large
+  - Value:
+      guid:
+        a: -1252960070
+        b: 1222521382
+        c: -2060921427
+        d: -930120191
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: -1727910973
+        b: 1211753719
+        c: -1904187002
+        d: 1352573676
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: -1942964502
+        b: 1094166987
+        c: -1227698549
+        d: 1358922916
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era6_Australia]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era6_Australia_Quote'
+  Adjective: '%Civilization_Era6_Australia_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &5152313624786005226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era3_FrankishKingdom
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era3_FrankishKingdomTitle'
+  Description: '%Civilization_Era3_FrankishKingdomDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: -555788908
+        b: 1171112600
+        c: -2040096354
+        d: -1187668395
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: 37634271
+        b: 1149794546
+        c: -963175773
+        d: -2141622947
+    serializableKey: Large
+  - Value:
+      guid:
+        a: -1534102875
+        b: 1260193149
+        c: -211589704
+        d: 1836236019
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 226043200
+        b: 1323788840
+        c: 776096388
+        d: -1115455042
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: 37634271
+        b: 1149794546
+        c: -963175773
+        d: -2141622947
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era3_FrankishKingdom]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era3_FrankishKingdom_Quote'
+  Adjective: '%Civilization_Era3_FrankishKingdom_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &6018509101590799784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era3_GhanaEmpire
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era3_GhanaEmpireTitle'
+  Description: '%Civilization_Era3_GhanaEmpireDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: -1164379125
+        b: 1197598880
+        c: -1575799624
+        d: 1262419552
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: 1826210475
+        b: 1159699009
+        c: -1635109979
+        d: 1218380604
+    serializableKey: Large
+  - Value:
+      guid:
+        a: -1426122253
+        b: 1311084227
+        c: -1736404347
+        d: -1167726466
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 1137793681
+        b: 1125285279
+        c: 1825381790
+        d: 788315812
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: 1826210475
+        b: 1159699009
+        c: -1635109979
+        d: 1218380604
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era3_GhanaEmpire]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era3_GhanaEmpire_Quote'
+  Adjective: '%Civilization_Era3_GhanaEmpire_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &6187515546270156655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era3_Byzantium
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era3_ByzantiumTitle'
+  Description: '%Civilization_Era3_ByzantiumDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: 1792260344
+        b: 1117091568
+        c: -980698440
+        d: -1742940696
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: -761345284
+        b: 1108481962
+        c: -658717776
+        d: -1442848727
+    serializableKey: Large
+  - Value:
+      guid:
+        a: 904439469
+        b: 1148700032
+        c: -489557103
+        d: 1301578053
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 1816454651
+        b: 1342137020
+        c: -601680743
+        d: 162603477
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: -761345284
+        b: 1108481962
+        c: -658717776
+        d: -1442848727
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era3_Byzantium]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era3_Byzantium_Quote'
+  Adjective: '%Civilization_Era3_Byzantium_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &6455387318646732010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: FactionDummy
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_DummyTitle'
+  Description: '%Civilization_DummyDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: FactionCard
+  - Value:
+      guid:
+        a: 697124176
+        b: 1218979501
+        c: -1596890738
+        d: 1481694661
+    serializableKey: Picto
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: 
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: 
+  Adjective: 
+  UIConstructibleCulture: 
+--- !u!114 &6590677184929586572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era1_OlmecCivilization
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era1_OlmecCivilizationTitle'
+  Description: '%Civilization_Era1_OlmecCivilizationDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: 2069726359
+        b: 1113877745
+        c: 898512062
+        d: -166028023
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: 640903817
+        b: 1331646538
+        c: 1754183605
+        d: -1340848310
+    serializableKey: Large
+  - Value:
+      guid:
+        a: 1693009450
+        b: 1193538958
+        c: -392861517
+        d: -1650243490
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: -1893840261
+        b: 1152732778
+        c: 1433474179
+        d: -1487394963
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: 640903817
+        b: 1331646538
+        c: 1754183605
+        d: -1340848310
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era1_OlmecCivilization]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era1_OlmecCivilization_Quote'
+  Adjective: '%Civilization_Era1_OlmecCivilization_Adjective'
+  UIConstructibleCulture: Culture_Era1_Mesopotamian
+--- !u!114 &6701491574860766271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era3_MedievalEngland
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era3_MedievalEnglandTitle'
+  Description: '%Civilization_Era3_MedievalEnglandDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: -53041646
+        b: 1310372120
+        c: -1017315684
+        d: -686164029
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: 1399995077
+        b: 1305377236
+        c: 239541900
+        d: 31348005
+    serializableKey: Large
+  - Value:
+      guid:
+        a: -1495648377
+        b: 1322817171
+        c: 316410003
+        d: 981356200
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 2039997161
+        b: 1222591084
+        c: -1739303502
+        d: 1387814065
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: 1399995077
+        b: 1305377236
+        c: 239541900
+        d: 31348005
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era3_MedievalEngland]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era3_MedievalEngland_Quote'
+  Adjective: '%Civilization_Era3_MedievalEngland_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &6756257063084612530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era2_MauryaEmpire
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era2_MauryaEmpireTitle'
+  Description: '%Civilization_Era2_MauryaEmpireDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: 768641662
+        b: 1188643408
+        c: -1375291221
+        d: 160160774
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: 1998896662
+        b: 1129803361
+        c: 713607559
+        d: -832942576
+    serializableKey: Large
+  - Value:
+      guid:
+        a: -1167065476
+        b: 1337581947
+        c: 266250163
+        d: 1601844088
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 777791484
+        b: 1289188848
+        c: -106492779
+        d: 723879324
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: 1998896662
+        b: 1129803361
+        c: 713607559
+        d: -832942576
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era2_MauryaEmpire]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era2_MauryaEmpire_Quote'
+  Adjective: '%Civilization_Era2_MauryaEmpire_Adjective'
+  UIConstructibleCulture: Culture_Era2_GrecoRoman
+--- !u!114 &6796116512693280553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era4_MingChina
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era4_MingChinaTitle'
+  Description: '%Civilization_Era4_MingChinaDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: 1432340398
+        b: 1185588741
+        c: -1966660418
+        d: 219256184
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: -999748833
+        b: 1082995972
+        c: -242974286
+        d: 1057744943
+    serializableKey: Large
+  - Value:
+      guid:
+        a: -1239077242
+        b: 1301766002
+        c: -1609833808
+        d: 593194194
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 1064270433
+        b: 1152180680
+        c: -117420384
+        d: -2104904924
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: -999748833
+        b: 1082995972
+        c: -242974286
+        d: 1057744943
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era4_MingChina]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era4_MingChina_Quote'
+  Adjective: '%Civilization_Era4_MingChina_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &6956150406117704697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era5_Mexico
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era5_MexicoTitle'
+  Description: '%Civilization_Era5_MexicoDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: -517808944
+        b: 1229492945
+        c: -1345396064
+        d: 1375011252
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: 755696156
+        b: 1258259018
+        c: -790875008
+        d: 206983031
+    serializableKey: Large
+  - Value:
+      guid:
+        a: -1174481698
+        b: 1294077142
+        c: 1713267864
+        d: 882612827
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: -713365986
+        b: 1250392709
+        c: 1361122204
+        d: -72491985
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: 755696156
+        b: 1258259018
+        c: -790875008
+        d: 206983031
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era5_Mexico]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era5_Mexico_Quote'
+  Adjective: '%Civilization_Era5_Mexico_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &7016112157490798889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era1_HarappanCivilization
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era1_HarappanCivilizationTitle'
+  Description: '%Civilization_Era1_HarappanCivilizationDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: -1342538764
+        b: 1295981825
+        c: -917986401
+        d: 2055768443
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: 1617111374
+        b: 1326773932
+        c: 1100540860
+        d: -788788915
+    serializableKey: Large
+  - Value:
+      guid:
+        a: -65877118
+        b: 1093501580
+        c: -1186761290
+        d: 89932271
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 7511767
+        b: 1092986488
+        c: -28187978
+        d: 161977043
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: 1617111374
+        b: 1326773932
+        c: 1100540860
+        d: -788788915
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era1_HarappanCivilization]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era1_HarappanCivilization_Quote'
+  Adjective: '%Civilization_Era1_HarappanCivilization_Adjective'
+  UIConstructibleCulture: Culture_Era1_Mesopotamian
+--- !u!114 &7030903328927911466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era2_AksumiteEmpire
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era2_AksumiteEmpireTitle'
+  Description: '%Civilization_Era2_AksumiteEmpireDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: 308097495
+        b: 1162947773
+        c: 1113106052
+        d: 658782073
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: 5771648
+        b: 1126673835
+        c: -1408099409
+        d: 1856382099
+    serializableKey: Large
+  - Value:
+      guid:
+        a: 638835816
+        b: 1113065728
+        c: 2079077544
+        d: 1165179681
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 1581075441
+        b: 1233018208
+        c: 574712967
+        d: 1293306232
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: 5771648
+        b: 1126673835
+        c: -1408099409
+        d: 1856382099
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era2_AksumiteEmpire]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era2_AksumiteEmpire_Quote'
+  Adjective: '%Civilization_Era2_AksumiteEmpire_Adjective'
+  UIConstructibleCulture: Culture_Era2_GrecoRoman
+--- !u!114 &8140170148654052478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era6_Bharat
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era6_BharatTitle'
+  Description: Civilization_Era6_BharatDescription
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: 1617214644
+        b: 1160764977
+        c: 1806689677
+        d: -2137999070
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: -1610663397
+        b: 1113820629
+        c: -1967347048
+        d: -1477100101
+    serializableKey: Large
+  - Value:
+      guid:
+        a: -669353459
+        b: 1131268302
+        c: -1008601154
+        d: -279947382
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 1780496207
+        b: 1148081590
+        c: 562441350
+        d: -409104424
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: -1610663397
+        b: 1113820629
+        c: -1967347048
+        d: -1477100101
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era6_India]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era6_Bharat_Quote'
+  Adjective: '%Civilization_Era6_India_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &8502260899052546498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era3_UmayyadCaliphate
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era3_UmayyadCaliphateTitle'
+  Description: '%Civilization_Era3_UmayyadCaliphateDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: 140163634
+        b: 1328721120
+        c: -449487980
+        d: -1078917257
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: 285753791
+        b: 1200829907
+        c: 289050765
+        d: -1686558098
+    serializableKey: Large
+  - Value:
+      guid:
+        a: 388424266
+        b: 1253428733
+        c: 1954717862
+        d: 396682154
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: -564342977
+        b: 1288257964
+        c: 204340153
+        d: 2032285181
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: 285753791
+        b: 1200829907
+        c: 289050765
+        d: -1686558098
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era3_UmayyadCaliphate]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era3_UmayyadCaliphate_Quote'
+  Adjective: '%Civilization_Era3_UmayyadCaliphate_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &8680091861278951911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era6_Sweden
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era6_SwedenTitle'
+  Description: '%Civilization_Era6_SwedenDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: -452989873
+        b: 1190464993
+        c: 1368684470
+        d: -457009244
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: 1462406789
+        b: 1089060674
+        c: 1723101364
+        d: -1502927538
+    serializableKey: Large
+  - Value:
+      guid:
+        a: 1310866309
+        b: 1325178847
+        c: 1406426266
+        d: 2067353364
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: -923159618
+        b: 1240940069
+        c: -4792697
+        d: -1028931131
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: 1462406789
+        b: 1089060674
+        c: 1723101364
+        d: -1502927538
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era6_Sweden]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era6_Sweden_Quote'
+  Adjective: '%Civilization_Era6_Sweden_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &8851917124789533774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era4_OttomanEmpire
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era4_OttomanEmpireTitle'
+  Description: '%Civilization_Era4_OttomanEmpireDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: 533110872
+        b: 1299844273
+        c: 311212958
+        d: -2038423991
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: -73141428
+        b: 1183272225
+        c: -858666582
+        d: 1801595456
+    serializableKey: Large
+  - Value:
+      guid:
+        a: 7147997
+        b: 1187671460
+        c: 1139738508
+        d: -2005312101
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: -1595943772
+        b: 1158825385
+        c: -1027893097
+        d: -47907551
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: -73141428
+        b: 1183272225
+        c: -858666582
+        d: 1801595456
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era4_OttomanEmpire]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era4_OttomanEmpire_Quote'
+  Adjective: '%Civilization_Era4_OttomanEmpire_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque
+--- !u!114 &9070734505921744111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 140474721, guid: b310e23bee821cb478da05296ba685d0, type: 3}
+  m_Name: Civilization_Era6_USSR
+  m_EditorClassIdentifier: 
+  Title: '%Civilization_Era6_USSRTitle'
+  Description: '%Civilization_Era6_USSRDescription'
+  Images:
+  - Value:
+      guid:
+        a: 0
+        b: 0
+        c: 0
+        d: 0
+    serializableKey: Small
+  - Value:
+      guid:
+        a: -650145465
+        b: 1119767135
+        c: 1905398145
+        d: 1673295902
+    serializableKey: Medium
+  - Value:
+      guid:
+        a: -881243940
+        b: 1161443919
+        c: 996809617
+        d: -1229009186
+    serializableKey: Large
+  - Value:
+      guid:
+        a: 1885650765
+        b: 1095282938
+        c: 864832173
+        d: -1885297403
+    serializableKey: Picto
+  - Value:
+      guid:
+        a: 2103416106
+        b: 1335004511
+        c: -501334887
+        d: 743575391
+    serializableKey: Tooltip
+  - Value:
+      guid:
+        a: -881243940
+        b: 1161443919
+        c: 996809617
+        d: -1229009186
+    serializableKey: FactionCard
+  Color: {r: 0, g: 0, b: 0, a: 0}
+  Symbol: '[Civilization_Era6_USSR]'
+  LeaderTitle: 
+  LeaderDescription: 
+  Quote: '%Civilization_Era6_USSR_Quote'
+  Adjective: '%Civilization_Era6_USSR_Adjective'
+  UIConstructibleCulture: Culture_Era3_Romanesque

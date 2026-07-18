@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6779348484740858906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -203084690, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: DatabasePlugin
+  m_EditorClassIdentifier: 
+  AssetBundleManifest: {fileID: 11400000, guid: d267d76429263f142ba3af3cfc5b06cb, type: 2}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 130328062, guid: 783efdfc86c10be41b33bb17a2a60f5c, type: 3}
+  m_Name: Bharat
+  m_EditorClassIdentifier: 
+  Author: Abhirup Banerjee
+  Description: 
+  Homepage: "Bharat \u2014 Netaji's independent, self-reliant India"
+  ReleaseNotes: 
+  RuntimeModuleType: 2
+  Tags: 
+  UIThumbnail:
+    guid:
+      a: 0
+      b: 0
+      c: 0
+      d: 0
+  Version:
+    Accessibility: 0
+    Build: 0
+    Label: 
+    Major: 0
+    Minor: 0
+    Revision: 0
+    SerializationToleranceLevel: 0
+  GameVersion:
+    Accessibility: 0
+    Build: 0
+    Label: 
+    Major: 0
+    Minor: 0
+    Revision: 0
+    SerializationToleranceLevel: 0
+  LoadingScreenBackground: {fileID: 0}
+  runtimePlugins:
+  - {fileID: -6779348484740858906}
+  guid:
+    a: 1553821435
+    b: 1530145698
+    c: -606322232
+    d: 1881703400
