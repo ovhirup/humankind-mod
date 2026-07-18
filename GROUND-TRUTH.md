@@ -418,6 +418,54 @@ Trait" once building starts.
 Next untested step: actually select and import these collections, then
 create the first `CivilizationDefinition` object for Bharat.
 
+### Bharat's identity fields filled in (2026-07-19)
+
+On the duplicated `Civilization_Era6_Bharat` FactionDefinition:
+- **Gameplay Orientation** and **Faction Affinity Reference** both set to
+  **Builder** (were inherited from India as "Cultural" — these are two
+  separate fields that must be updated independently, they don't sync
+  automatically). Confirmed real Affinity list:
+  `Expansionist, Warmonger, Scientist, Farmer, Builder, Cultural, Merchant,
+  Diplomat, None` (differs from assumed community terminology — no
+  "Militarist"/"Aesthete"/"Ecologist"; real names are Warmonger and
+  Cultural instead). Builder chosen to match the "Mother Industries"
+  self-reliant-industrialization identity from DESIGN.md.
+
+Imported the `CivilizationUIMappers` collection the same way, duplicated
+`Civilization_Era6_India` → renamed to `Civilization_Era6_Bharat` (name
+**must exactly match** the FactionDefinition's name — confirmed working).
+Its `FactionUIMapper` fields are localization key references (`%...`
+strings), not literal text — Title, Description, Quote, and Adjective all
+needed updating to new Bharat-specific keys, then those keys' actual text
+defined separately via the Mod Editor's Localization window (2. Content →
+"Open Localization Editor"). One gotcha: manually retyping the Description
+key dropped its leading `%` by mistake — every key field must keep that
+prefix or the reference won't resolve.
+
+Localization entries created (Mod Editor → Localization window → "+" →
+"Add New Translation Key..." → type key including the `%` prefix → OK →
+fill Value cell → set **State** dropdown to "Translated" to match how the
+game's own built-in keys are marked, since new keys default to "To
+Translate"/"In Translation"):
+
+| Key | Value |
+|---|---|
+| `%Civilization_Era6_BharatTitle` | Bharat |
+| `%Civilization_Era6_BharatDescription` | The self-reliant, composite nation Netaji Subhas Chandra Bose fought to build — independent India, united across faith and region. |
+| `%Civilization_Era6_Bharat_Quote` | Jai Hind! |
+| `%Civilization_Era6_Bharat_Adjective` | Bharatiya |
+
+Symbol/Images/Color on the UI Mapper still point at India's placeholder
+art — untouched, per DESIGN.md's plan that art is a later stage.
+
+Project saved via Mod Editor's own **Save Project** (not the generic Unity
+scene-save dialog, which is unrelated — it just saves the empty default
+scene and has no bearing on the mod's actual data in `Assets/Databases/`).
+
+Next step: create Bharat's own unique **Legacy Trait** (currently still
+referencing India's, "1 items" in the Legacy Trait References field) —
+the "Mother Industries" mechanical identity from DESIGN.md.
+
 ### First real artifact created (2026-07-19): `Civilization_Era6_Bharat`
 
 Imported the full `CivilizationDefinition` collection (61 elements, via
