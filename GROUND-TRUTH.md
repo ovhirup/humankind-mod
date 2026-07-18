@@ -248,6 +248,58 @@ observation, not a proven capability).
 - [ ] Test whether the Steam-Overlay-vs-BepInEx snapshot conflict actually
       reproduces on this install, and whether the mod-persona workaround is
       needed.
+
+## Resolved: can BepInEx author a new Culture? No — this needs the Mod Editor
+
+Read Amplitude's official 159-page Modding Guide (PDF,
+`medias.games2gether.com/universes/humankind/mods/HUMANKIND_Official_Modding_Guide.pdf`,
+converted locally via `pdftotext`) §10 "Adding a new Culture." Key facts:
+
+- Creating a Culture means creating a **`FactionDefinition` object** inside
+  the Mod Editor's project inspector (right-click → "Add →
+  FactionDefinition," or duplicate an existing one), then filling in its
+  **"Definition" tab** (Era Reference, Faction Type, Gameplay Orientation,
+  Legacy Trait References, Trait References, Faction Affinity Reference,
+  localized names) and **"Presentation" tab** (visual affinities for units/
+  buildings/avatar costume) — all via GUI fields and object-reference
+  pickers, not text editing.
+- A matching **`FactionUIMapper`** object (must share the exact same name)
+  supplies the display name/description/images.
+- A **`LegacyTrait`** + **`LegacyTraitDescriptor`** + **another UI mapper**
+  are separate linked objects, again created via the same right-click →
+  "Add →" inspector workflow, referencing each other by object picker.
+- Emblematic units/districts are unlocked by editing a different existing
+  object's "Prerequisites" tab to add the new culture under "Faction
+  Names," and adding a "SimulationEventEffects_ApplyDescriptor" event to
+  the legacy trait to actually unlock them.
+- The whole tutorial (§10.1–10.14) never once shows or mentions a raw file
+  format (no JSON/XML/YAML snippet anywhere) — every step is "select this
+  in the inspector, fill this field, click this button." This matches
+  `Sirenix.OdinInspector` being present in the game's own
+  `Managed/` folder — a Unity inspector-extension library built exactly for
+  this kind of GUI-driven scriptable-object-graph authoring.
+
+**Conclusion: a brand-new Culture is authored through Unity's serialized
+object-graph system via the Mod Editor's GUI, not through hand-editable
+data files.** BepInEx (Harmony/MonoMod runtime patching of already-loaded
+C# code) is built for a fundamentally different job — modifying behavior at
+runtime — not constructing and registering a new, fully cross-referenced
+content object graph the way the Editor does. It's not proven *impossible*
+to replicate this via BepInEx (a plugin could in principle use reflection
+to construct equivalent objects and inject them before the game consumes
+its collections), but there is no existing precedent for it, it would mean
+reverse-engineering the entire object graph and serialization format from
+scratch with no tooling support, and it is a categorically harder,
+higher-risk path than just running the actual Mod Editor.
+
+**Practical implication for the Bharat mod:** building a genuinely new
+Culture on this Mac realistically requires either (a) a Windows VM
+(Parallels/UTM) to run the real Mod Editor, or (b) scoping down to
+patching/reskinning the existing base-game "Indians" Contemporary culture
+via BepInEx instead of authoring a new one — a much smaller, more
+BepInEx-tractable target (modifying field values and text on an
+already-loaded object, not constructing a new object graph). This decision
+is now unblocked for the user to make; see DESIGN.md.
 - [ ] Since the Unity-Editor "Import from Archives" categories
       (LandUnit/Descriptors/Definitions/UIMappers) are no longer directly
       reachable, figure out whether BepInEx-based mods can read/patch these

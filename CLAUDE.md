@@ -125,14 +125,31 @@ civ7-netaji-mod.
 - Use the Workflow tool's `budget` mechanism to cap spend on large
   fan-outs when a token target is given.
 
-## Conventions (placeholder — fill in once a mod concept is chosen)
+## Conventions
 
-- Non-negotiable framing rule: TBD once the mod's theme/subject is picked
-  (civ7-netaji-mod's equivalent: "no Axis-alliance references, ever").
-- Type-name / id prefix convention: TBD.
+Concept chosen 2026-07-18: **Bharat** — a custom Contemporary Era Culture for
+Netaji Subhas Chandra Bose's independence-era vision, adapted from the
+shipped Civ VII mod (civ7-netaji-mod). Full concept, reused research, and
+open questions: [DESIGN.md](DESIGN.md).
+
+- **Non-negotiable framing rule:** no Axis-alliance references anywhere —
+  code, text, or art. Every historical claim is tiered A (established) / B
+  (debated) / C (mythology-as-culture) / D (debunked, never used as fact) /
+  **E (alternate history, explicitly labeled as speculative "what if,"
+  never presented as real history)** — this last tier is how this mod
+  reaches for ancient-tech/spirituality/naval "world supremacy" ambition
+  without losing the credibility the Civ VII mod earned. Reject
+  Vimana/Vaimanika Shastra as literal ancient aircraft (Tier D) — myth-only
+  (Tier C) at most.
+- Type-name / id prefix convention: TBD — blocked on resolving whether
+  BepInEx can author a new Culture at all, or only patch an existing one
+  (see DESIGN.md's open questions).
 - Repo layout: TBD once the Mod Tools' own project structure is seen
   hands-on — it likely dictates a required folder shape, unlike Civ VII's
-  free-form XML tree.
+  free-form XML tree. Note: the official Mod Tools are confirmed
+  Windows-only and unavailable on this Mac (see GROUND-TRUTH.md) — BepInEx
+  is the active toolchain, which changes what "project structure" even
+  means here.
 
 ## Division of labor
 
