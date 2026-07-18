@@ -19,6 +19,12 @@ way civ7-netaji-mod's memory accumulated hard-won schema facts over its build.
 > "To create a new mod for Humankind, you should run the Humankind Mod Tools
 > you can install through your Steam library (in the Tools category)."
 
+**Confirmed Windows-only** (checked the actual Steam Tools store listing on
+this Mac, 2026-07-18 — "Available for" shows the Windows icon only, no Mac
+build offered). This Mac is Apple Silicon, so this path is closed unless run
+inside a Windows VM (Parallels/UTM) — **not pursued for now**; BepInEx below
+is the active path instead.
+
 The tool bundles Unity Hub + Unity Editor and walks a first-time user through
 installing both plus activating a free Unity license. Modders don't start
 from a blank Unity project — they use the Mod Editor's **"Import from
@@ -42,10 +48,15 @@ logging into a mod.io account in the Export tab).
 
 Mod projects are folder-based: "Just send the mod's folder in
 `Documents/Humankind/Community` to your friends so they can put it in their
-own community folder." — **the exact Mac-side path for this is unverified**;
-Windows convention would be `Documents\Humankind\Community\`; Mac is likely
-`~/Documents/Humankind/Community/` but this needs hands-on confirmation once
-the Mod Tools are actually installed and run once.
+own community folder." — the actual Mac-side folder was found by direct
+filesystem inspection (2026-07-18):
+`~/Library/Application Support/Humankind/Community/` (currently containing
+only a `Scenarios` subfolder). Not `~/Documents/...` as the Windows-phrased
+guidance suggested — Mac app-support data lives under `Library/Application
+Support`, not `Documents`, consistent with the other confirmed paths below.
+Still needs a real mod build dropped in to confirm this is where a
+Mod-Tools-exported project would actually land (this folder may just be
+Scenario/Map-Editor output, a separate feature from gameplay-data mods).
 
 ## The unofficial deeper path: BepInEx
 
@@ -70,6 +81,104 @@ for conflicts before stacking BepInEx-based mods with each other.
 The README does **not** specify actual assembly names, file paths, or
 concrete data formats beyond this — those remain to be discovered hands-on if
 this path is ever needed.
+
+### Mac install steps (community-documented, not yet hands-on verified)
+
+Since the official Mod Tools are Windows-only, BepInEx is now the **active**
+path on this Mac. Sources: [BepInEx Mono/Unity install
+docs](https://docs.bepinex.dev/master/articles/user_guide/installation/unity_mono.html),
+[Amplitude forum BepInEx
+thread](https://community.amplitude-studios.com/amplitude-studios/humankind/forums/213-game-resources/threads/46128-tutorials-showing-how-to-install-bepinex-mods-windows-and-mac),
+a [Steam Community
+report](https://steamcommunity.com/app/1124300/discussions/0/3183486955460515102/)
+of a real Mac install. Steps:
+
+1. Download the `Unity.Mono-macos-x64` BepInEx build (64-bit only supported
+   on Mac).
+2. Unpack into the game root — same folder as `Humankind.app`, i.e.
+   `~/Library/Application Support/Steam/steamapps/common/Humankind/` on this
+   Mac.
+3. Edit the included `run_bepinex.sh`: set
+   `executable_name="Humankind.app"`, then `chmod u+x run_bepinex.sh`.
+4. In Steam, set Humankind's launch options to:
+   `"/Users/abhirupbanerjee/Library/Application Support/Steam/steamapps/common/Humankind/run_bepinex.sh" %command%`
+5. Launch normally through Steam (not the script directly) — first run
+   generates the BepInEx config folder and log file.
+
+**Known conflict:** Steam Overlay and BepInEx both use OS-level injection on
+Mac and interfere with each other — **Steam cloud snapshots/character
+creator break while BepInEx is active** (confirmed by a real user report, not
+just theoretical). Workaround in use by the community: create characters via
+BepInEx mod personas, then disable BepInEx to restore snapshot functionality.
+Combine this with the already-noted `Modding.Humankind.DevTools` +
+`AOM.Humankind.Teams` crash conflict — check compatibility before stacking
+BepInEx mods.
+
+### Hands-on result on this Mac (2026-07-18): install works, but game is currently unplayable with BepInEx active
+
+Followed the install steps above exactly (BepInEx 5.4.23.5, `macos_universal`
+build). Findings, in order encountered:
+
+1. **Preloader crash #1** — `ConsoleSetOutFix.Apply()` threw
+   `NullReferenceException` in `MonoMod.RuntimeDetour.DetourHelper
+   .GetIdentifiable`, an IL-hook/detour failure. This blocks the game at the
+   OS process level (game process alive but never renders, CPU flat) before
+   any actual game code runs.
+   - Tried the documented fix for this exact error class (`HarmonyBackend =
+     cecil` in `BepInEx/config/BepInEx.cfg`, per [BepInEx troubleshooting
+     docs](https://docs.bepinex.dev/articles/user_guide/troubleshooting.html))
+     — **did not help**. This setting only affects Harmony's *method-patch*
+     compilation strategy; `ConsoleSetOutFix` uses a raw `MonoMod.RuntimeDetour
+     .ILHook` directly, a different code path the setting doesn't reach.
+2. **Preloader crash #2** — with `ApplyRuntimePatches = false` (disables
+   *all* preloader bootstrap fixes, config's own documented escape hatch for
+   "can't start the game due to a Harmony related issue"), the
+   `ConsoleSetOutFix` crash is skipped entirely and the chainloader proceeds
+   further (creates `BepInEx/cache/`) — but a **second, different** Harmony
+   patch (`HarmonyInteropFix.Apply()`, patching
+   `System.Reflection.Assembly::LoadFile`) throws the same
+   `DetourHelper.GetIdentifiable` `NullReferenceException`. Non-fatal this
+   time (game continues past it), but confirms this MonoMod ILHook detour
+   mechanism is broadly broken against this game's bundled Mono runtime, not
+   just one fix.
+3. **Game now loads further but hangs at a different point** —
+   `~/Library/Logs/AMPLITUDE Studios/Humankind/Player.log` shows it reaching
+   real UI code (`JoinGameScreen`), then throwing `Exception: Failed to
+   initialize the freetype library` (font rendering) — no text can render,
+   so the loading screen appears permanently stuck.
+4. **Isolated the cause with a vanilla-launch A/B test**: cleared Steam's
+   launch options (removing the `run_bepinex.sh` wrapper) and launched
+   Humankind completely unmodified. **Result: loads cleanly past the exact
+   same point** — no freetype exception, no `DOORSTOP_*` env vars on the
+   process (confirmed via `ps eww`), log shows normal asset/font/Photon
+   networking loading straight through to the main menu.
+
+**Conclusion (superseded — see resolution below): BepInEx's Doorstop
+injection itself — not any specific plugin, and not a pre-existing Mac-port
+bug — breaks this game's native `freetype6.dylib` loading on this Mac.**
+
+### Resolution: it's a version regression in 5.4.23.5, not BepInEx itself
+
+Swapped to **v5.4.23.2** (`BepInEx_macos_x64_5.4.23.2.zip`) — the oldest
+release with a dedicated macOS build (mac support was split out of the
+combined unix zip starting at this exact version) — as a clean install (old
+`BepInEx/`, `run_bepinex.sh`, `libdoorstop.dylib`, `.doorstop_version`
+removed first, no carried-over config). **Result: works cleanly.**
+`BepInEx/LogOutput.log` shows a normal startup (`Preloader finished` →
+`Chainloader started` → `0 plugins to load` → `Chainloader startup
+complete`), zero freetype exceptions in `Player.log` (down from 5
+occurrences per run on 5.4.23.5), confirmed via `ps eww` that
+`DYLD_INSERT_LIBRARIES=libdoorstop.dylib` and `DOORSTOP_ENABLED=1` were
+genuinely active (so this is a real BepInEx-active success, not an
+accidental vanilla launch).
+
+**Verdict: v5.4.23.5's bundled MonoMod/Doorstop build has a regression that
+breaks font-library loading specifically on macOS with this game;
+v5.4.23.2 does not have this regression. Use v5.4.23.2 (or test v5.4.23.3/
+5.4.23.4 later if a newer feature is ever needed) for this project, not the
+latest release.** Untested so far: v5.4.23.3 and v5.4.23.4 (the two versions
+between the working and broken ones) — not needed unless 5.4.23.2 turns out
+to be missing something required later.
 
 ## Distribution: mod.io vs. Steam Workshop
 
@@ -125,15 +234,31 @@ observation, not a proven capability).
 
 ## Open questions for the first hands-on session
 
-- [ ] Install "Humankind Mod Tools" from Steam Library → Tools; confirm it
-      launches, walks through Unity Hub/Editor setup as described.
-- [ ] Open the Mod Editor, click "Import from Archives," and get the **real,
-      complete** list of database categories (LandUnit/Descriptors/
-      Definitions/UIMappers is likely a partial list from the walkthrough
-      post, not exhaustive).
-- [ ] Confirm the actual Mac path for `Documents/Humankind/Community/`.
-- [ ] Try Build + Export on an untouched import, to see the exact mod folder
-      structure it produces (this becomes the real repo layout convention).
+- [x] ~~Install "Humankind Mod Tools" from Steam Library → Tools~~ — **not
+      possible**: confirmed Windows-only on this Apple Silicon Mac
+      (2026-07-18). Official Mod Editor path is closed unless run in a
+      Windows VM; not pursued for now.
+- [x] Install BepInEx via the Mac steps above — **done and working**, using
+      **v5.4.23.2** specifically (v5.4.23.5 has a font-loading regression on
+      Mac, see hands-on results above).
+- [ ] Write an actual first plugin (even a trivial "hello world" log
+      message) and confirm `BepInEx/plugins/` + chainloader picks it up —
+      still unverified that a *real* plugin loads cleanly, only that 0
+      plugins loads cleanly.
+- [ ] Test whether the Steam-Overlay-vs-BepInEx snapshot conflict actually
+      reproduces on this install, and whether the mod-persona workaround is
+      needed.
+- [ ] Since the Unity-Editor "Import from Archives" categories
+      (LandUnit/Descriptors/Definitions/UIMappers) are no longer directly
+      reachable, figure out whether BepInEx-based mods can read/patch these
+      same Mercury database concepts, or whether BepInEx modding is a
+      fundamentally different, lower-level surface (Harmony IL patches, not
+      data-driven Definitions).
+- [ ] Confirm whether `~/Library/Application Support/Humankind/Community/`
+      is actually where a gameplay mod (not just Scenario/Map-Editor output)
+      would land.
 - [ ] Check mod.io's Humankind mod listing for any large, well-documented
       mods worth studying as precedent (the same way civ7-netaji-mod studied
-      12 installed Workshop mods for wiring patterns).
+      12 installed Workshop mods for wiring patterns) — specifically look for
+      ones built via BepInEx rather than the official Mod Editor, since
+      that's now the only viable path on this Mac.
