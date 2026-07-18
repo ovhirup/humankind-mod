@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Unity (in case a real Mod Tools project ends up nested here later)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+*.csproj
+*.sln
+.vs/
+
+# Large exported mod artifacts (rebuildable from source)
+*.assetbundle
+*.hmap
