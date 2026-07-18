@@ -417,6 +417,36 @@ Trait" once building starts.
 
 Next untested step: actually select and import these collections, then
 create the first `CivilizationDefinition` object for Bharat.
+
+### First real artifact created (2026-07-19): `Civilization_Era6_Bharat`
+
+Imported the full `CivilizationDefinition` collection (61 elements, via
+"Bulk Override" — confirmed this specific project has no other mods to
+conflict with, so bulk-importing was safe here). Found the base game's
+generic modern-India culture is internally named **`Civilization_Era6_India`**
+(singular "India", not "Indians") — confirms **Era6 = Contemporary** in this
+collection's naming (Era0 = Neolithic default tribe, Era1 = Ancient, Era2 =
+Classical, Era3 = Medieval, Era4 = Early Modern, Era5 = Industrial, Era6 =
+Contemporary).
+
+Workflow used (right-click an entry in the Inspector's collection list):
+`Add` / `Copy` / `Cut` / `Paste as New` / `Rename` / `Delete` / `Duplicate`
+/ `Find References`. **"Duplicate 1 Element"** is the direct one-click path
+(simpler than the guide's "Copy" then "Paste as New" two-step). One
+real gotcha: the collection list's row positions can shift under a
+live-updating search filter — a duplicate action fired while the search
+text was mid-edit landed on the wrong row (`Civilization_Era4_VenetianRepublic`
+got duplicated instead of India). Fix: fully settle the search text and
+confirm the exact single intended result is showing before right-clicking,
+don't act while the filter is still changing. Deleted the errant duplicate
+via "Delete 1 Element" with no apparent side effects.
+
+Duplicated `Civilization_Era6_India` → renamed to
+**`Civilization_Era6_Bharat`** — it now sits correctly alphabetically among
+the other Era6 (Contemporary) cultures. This is a real `FactionDefinition`
+object per the Inspector header, ready for its "Definition" tab fields
+(Era Reference, Faction Type, Gameplay Orientation, Legacy Trait
+References, etc.) to be filled in next, per §10.3 of the official guide.
 - [ ] Since the Unity-Editor "Import from Archives" categories
       (LandUnit/Descriptors/Definitions/UIMappers) are no longer directly
       reachable, figure out whether BepInEx-based mods can read/patch these
