@@ -1,0 +1,2726 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9211488976697425436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era3_MedievalEngland
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era3_MedievalEnglandTitle'
+  Description: '%LegacyTrait_Era3_MedievalEnglandDescription'
+  Images:
+  - Value:
+      guid:
+        a: -934906379
+        b: 1258598457
+        c: 1335720347
+        d: 598072120
+    serializableKey: Picto
+  Color: {r: 0.7529412, g: 0.8509804, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &-9018007720816405547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era4_Upgrade_Builder
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_BuilderTitle'
+  Description: '%LegacyTrait_Upgrade_BuilderDescription'
+  Images:
+  - Value:
+      guid:
+        a: 880009794
+        b: 1307209199
+        c: -1634432128
+        d: -464442426
+    serializableKey: Picto
+  Color: {r: 0.8509804, g: 0.45490196, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &-8767978641715435322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era6_USA
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era6_USATitle'
+  Description: '%LegacyTrait_Era6_USADescription'
+  Images:
+  - Value:
+      guid:
+        a: -1401866393
+        b: 1312528497
+        c: -959632726
+        d: 298800247
+    serializableKey: Picto
+  Color: {r: 0.6156863, g: 0.33333334, b: 0.84705883, a: 1}
+  Symbol: 
+--- !u!114 &-8724785994285363766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era1_Upgrade_Merchant
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_MerchantTitle'
+  Description: '%LegacyTrait_Upgrade_MerchantDescription'
+  Images:
+  - Value:
+      guid:
+        a: 2041966009
+        b: 1074468040
+        c: 1402071191
+        d: -1613440478
+    serializableKey: Picto
+  Color: {r: 0.8509804, g: 0.6627451, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &-8721015891491879517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era2_Upgrade
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era2_UpgradeTitle'
+  Description: '%LegacyTrait_Era2_UpgradeDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1788513740
+        b: 1125542224
+        c: -731982680
+        d: -915074027
+    serializableKey: Picto
+  Color: {r: 1, g: 0.8117647, b: 0.5294118, a: 1}
+  Symbol: 
+--- !u!114 &-8702451718438117003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era6_India
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era6_IndiaTitle'
+  Description: '%LegacyTrait_Era6_IndiaDescription'
+  Images:
+  - Value:
+      guid:
+        a: 385920210
+        b: 1231726544
+        c: -1810738253
+        d: 558251492
+    serializableKey: Picto
+  Color: {r: 0.8509804, g: 0.6627451, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &-8494231532498854651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era2_CelticCivilization
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era2_CelticCivilizationTitle'
+  Description: '%LegacyTrait_Era2_CelticCivilizationDescription'
+  Images:
+  - Value:
+      guid:
+        a: -934906379
+        b: 1258598457
+        c: 1335720347
+        d: 598072120
+    serializableKey: Picto
+  Color: {r: 0.7529412, g: 0.8509804, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &-8446602273941128868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era1_Nubia
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era1_NubiaTitle'
+  Description: '%LegacyTrait_Era1_NubiaDescription'
+  Images:
+  - Value:
+      guid:
+        a: 385920210
+        b: 1231726544
+        c: -1810738253
+        d: 558251492
+    serializableKey: Picto
+  Color: {r: 0.8509804, g: 0.6627451, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &-8234418453660577078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era2_Goths
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era2_GothsTitle'
+  Description: '%LegacyTrait_Era2_GothsDescription'
+  Images:
+  - Value:
+      guid:
+        a: -275335033
+        b: 1292433972
+        c: -209681272
+        d: -1582457198
+    serializableKey: Picto
+  Color: {r: 0.78039217, g: 0.21960784, b: 0.28627452, a: 1}
+  Symbol: 
+--- !u!114 &-8207670294894940344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era6_USSR
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era6_USSRTitle'
+  Description: '%LegacyTrait_Era6_USSRDescription'
+  Images:
+  - Value:
+      guid:
+        a: -769853308
+        b: 1149385250
+        c: 1994392235
+        d: 1780949222
+    serializableKey: Picto
+  Color: {r: 0.78039217, g: 0.21960784, b: 0.28627452, a: 1}
+  Symbol: 
+--- !u!114 &-8066965473160199732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era0_Science
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era0_ScienceTitle'
+  Description: 
+  Images:
+  - Value:
+      guid:
+        a: -1498882830
+        b: 1193919851
+        c: -264294996
+        d: 474351959
+    serializableKey: Picto
+  Color: {r: 0.1882353, g: 0.8509804, b: 0.8235294, a: 1}
+  Symbol: 
+--- !u!114 &-8023061453193509588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era3_UmayyadCaliphate
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era3_UmayyadCaliphateTitle'
+  Description: '%LegacyTrait_Era3_UmayyadCaliphateDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1498882830
+        b: 1193919851
+        c: -264294996
+        d: 474351959
+    serializableKey: Picto
+  Color: {r: 0.1882353, g: 0.8509804, b: 0.8235294, a: 1}
+  Symbol: 
+--- !u!114 &-7897496664237974465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era2_Huns
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era2_HunsTitle'
+  Description: '%LegacyTrait_Era2_HunsDescription'
+  Images:
+  - Value:
+      guid:
+        a: -769853308
+        b: 1149385250
+        c: 1994392235
+        d: 1780949222
+    serializableKey: Picto
+  Color: {r: 0.78039217, g: 0.21960784, b: 0.28627452, a: 1}
+  Symbol: 
+--- !u!114 &-7739453207425365350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era3_Upgrade_Scientist
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_ScientistTitle'
+  Description: '%LegacyTrait_Upgrade_ScientistDescription'
+  Images:
+  - Value:
+      guid:
+        a: 798092062
+        b: 1294345974
+        c: 1334224023
+        d: -809356315
+    serializableKey: Picto
+  Color: {r: 0.1882353, g: 0.8509804, b: 0.8235294, a: 1}
+  Symbol: 
+--- !u!114 &-7604623298325987087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era1_ZhouChina
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era1_ZhouChinaTitle'
+  Description: '%LegacyTrait_Era1_ZhouChinaDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1306833850
+        b: 1190224030
+        c: -178580035
+        d: 2061119901
+    serializableKey: Picto
+  Color: {r: 0.83137256, g: 0.09411765, b: 0.40392157, a: 1}
+  Symbol: 
+--- !u!114 &-7438171496577518343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era3_Byzantium
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era3_ByzantiumTitle'
+  Description: '%LegacyTrait_Era3_ByzantiumDescription'
+  Images:
+  - Value:
+      guid:
+        a: 385920210
+        b: 1231726544
+        c: -1810738253
+        d: 558251492
+    serializableKey: Picto
+  Color: {r: 0.8509804, g: 0.6627451, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &-7434836947044836227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era2_Upgrade_Scientist
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_ScientistTitle'
+  Description: '%LegacyTrait_Upgrade_ScientistDescription'
+  Images:
+  - Value:
+      guid:
+        a: 798092062
+        b: 1294345974
+        c: 1334224023
+        d: -809356315
+    serializableKey: Picto
+  Color: {r: 0.1882353, g: 0.8509804, b: 0.8235294, a: 1}
+  Symbol: 
+--- !u!114 &-7317445986905477450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era3_Upgrade_Expansionist
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_ExpansionistTitle'
+  Description: '%LegacyTrait_Upgrade_ExpansionistDescription'
+  Images:
+  - Value:
+      guid:
+        a: -458373838
+        b: 1279209046
+        c: -1703184749
+        d: 1703036605
+    serializableKey: Picto
+  Color: {r: 0.83137256, g: 0.09411765, b: 0.40392157, a: 1}
+  Symbol: 
+--- !u!114 &-7256534330197633469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era4_Upgrade_Merchant
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_MerchantTitle'
+  Description: '%LegacyTrait_Upgrade_MerchantDescription'
+  Images:
+  - Value:
+      guid:
+        a: 2041966009
+        b: 1074468040
+        c: 1402071191
+        d: -1613440478
+    serializableKey: Picto
+  Color: {r: 0.8509804, g: 0.6627451, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &-5866695073858008679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era4_Upgrade
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era4_UpgradeTitle'
+  Description: '%LegacyTrait_Era4_UpgradeDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1788513740
+        b: 1125542224
+        c: -731982680
+        d: -915074027
+    serializableKey: Picto
+  Color: {r: 1, g: 0.8117647, b: 0.5294118, a: 1}
+  Symbol: 
+--- !u!114 &-5410025276115854806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era6_Egypt
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era6_EgyptTitle'
+  Description: '%LegacyTrait_Era6_EgyptDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1401866393
+        b: 1312528497
+        c: -959632726
+        d: 298800247
+    serializableKey: Picto
+  Color: {r: 0.6156863, g: 0.33333334, b: 0.84705883, a: 1}
+  Symbol: 
+--- !u!114 &-5101400961977163224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era1_Upgrade_Cultural
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_CulturalTitle'
+  Description: '%LegacyTrait_Upgrade_CulturalDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1099159498
+        b: 1241880807
+        c: -1365990232
+        d: -73308376
+    serializableKey: Picto
+  Color: {r: 0.6156863, g: 0.33333334, b: 0.84705883, a: 1}
+  Symbol: 
+--- !u!114 &-4832310491026697057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era3_FrankishKingdom
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era3_FrankishKingdomTitle'
+  Description: '%LegacyTrait_Era3_FrankishKingdomDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1401866393
+        b: 1312528497
+        c: -959632726
+        d: 298800247
+    serializableKey: Picto
+  Color: {r: 0.6156863, g: 0.33333334, b: 0.84705883, a: 1}
+  Symbol: 
+--- !u!114 &-4154516813859425382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era1_Upgrade_Diplomat
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_DiplomatTitle'
+  Description: '%LegacyTrait_Upgrade_DiplomatDescription'
+  Images:
+  - Value:
+      guid:
+        a: -2132889035
+        b: 1280484260
+        c: -722070594
+        d: -1662637284
+    serializableKey: Picto
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: 
+--- !u!114 &-3911533190893909964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era1_HarappanCivilization
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era1_HarappanCivilizationTitle'
+  Description: '%LegacyTrait_Era1_HarappanCivilizationDescription'
+  Images:
+  - Value:
+      guid:
+        a: -934906379
+        b: 1258598457
+        c: 1335720347
+        d: 598072120
+    serializableKey: Picto
+  Color: {r: 0.7529412, g: 0.8509804, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &-3704251408652107934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era4_Upgrade_Expansionist
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_ExpansionistTitle'
+  Description: '%LegacyTrait_Upgrade_ExpansionistDescription'
+  Images:
+  - Value:
+      guid:
+        a: -458373838
+        b: 1279209046
+        c: -1703184749
+        d: 1703036605
+    serializableKey: Picto
+  Color: {r: 0.83137256, g: 0.09411765, b: 0.40392157, a: 1}
+  Symbol: 
+--- !u!114 &-3633530177794907425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era4_JoseonKorea
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era4_JoseonKoreaTitle'
+  Description: '%LegacyTrait_Era4_JoseonKoreaDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1498882830
+        b: 1193919851
+        c: -264294996
+        d: 474351959
+    serializableKey: Picto
+  Color: {r: 0.1882353, g: 0.8509804, b: 0.8235294, a: 1}
+  Symbol: 
+--- !u!114 &-3545374025992003674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era4_Upgrade_Warmonger
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_WarmongerTitle'
+  Description: '%LegacyTrait_Upgrade_ScientistDescription'
+  Images:
+  - Value:
+      guid:
+        a: 794240055
+        b: 1097524512
+        c: -2130518892
+        d: 175436644
+    serializableKey: Picto
+  Color: {r: 0.78039217, g: 0.21960784, b: 0.28627452, a: 1}
+  Symbol: 
+--- !u!114 &-3529968246033753139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era3_Upgrade_Warmonger
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_WarmongerTitle'
+  Description: '%LegacyTrait_Upgrade_ScientistDescription'
+  Images:
+  - Value:
+      guid:
+        a: 794240055
+        b: 1097524512
+        c: -2130518892
+        d: 175436644
+    serializableKey: Picto
+  Color: {r: 0.78039217, g: 0.21960784, b: 0.28627452, a: 1}
+  Symbol: 
+--- !u!114 &-3521583709276929433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era3_Upgrade_Farmer
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_FarmerTitle'
+  Description: '%LegacyTrait_Upgrade_FarmerDescription'
+  Images:
+  - Value:
+      guid:
+        a: 490243640
+        b: 1195892029
+        c: -1605345890
+        d: -881986316
+    serializableKey: Picto
+  Color: {r: 0.7529412, g: 0.8509804, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &-3346294732731920289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era4_MingChina
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era4_MingChinaTitle'
+  Description: '%LegacyTrait_Era4_MingChinaDescription'
+  Images:
+  - Value:
+      guid:
+        a: 95985788
+        b: 1235731493
+        c: -1431192395
+        d: -49492386
+    serializableKey: Picto
+  Color: {r: 0.6156863, g: 0.33333334, b: 0.84705883, a: 1}
+  Symbol: 
+--- !u!114 &-3316709544261833186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era4_Spain
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era4_SpainTitle'
+  Description: '%LegacyTrait_Era4_SpainDescription'
+  Images:
+  - Value:
+      guid:
+        a: -769853308
+        b: 1149385250
+        c: 1994392235
+        d: 1780949222
+    serializableKey: Picto
+  Color: {r: 0.78039217, g: 0.21960784, b: 0.28627452, a: 1}
+  Symbol: 
+--- !u!114 &-3313152999122045216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era1_Upgrade
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era1_UpgradeTitle'
+  Description: '%LegacyTrait_Era1_UpgradeDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1788513740
+        b: 1125542224
+        c: -731982680
+        d: -915074027
+    serializableKey: Picto
+  Color: {r: 1, g: 0.8117647, b: 0.5294118, a: 1}
+  Symbol: 
+--- !u!114 &-2948585949961602318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era2_Upgrade_Cultural
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_CulturalTitle'
+  Description: '%LegacyTrait_Upgrade_CulturalDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1099159498
+        b: 1241880807
+        c: -1365990232
+        d: -73308376
+    serializableKey: Picto
+  Color: {r: 0.6156863, g: 0.33333334, b: 0.84705883, a: 1}
+  Symbol: 
+--- !u!114 &-2713754978924070255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era4_VenetianRepublic
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era4_VenetianRepublicTitle'
+  Description: '%LegacyTrait_Era4_VenetianRepublicDescription'
+  Images:
+  - Value:
+      guid:
+        a: 385920210
+        b: 1231726544
+        c: -1810738253
+        d: 558251492
+    serializableKey: Picto
+  Color: {r: 0.8509804, g: 0.6627451, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &-2703833086466587858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era6_Turkey
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era6_TurkeyTitle'
+  Description: '%LegacyTrait_Era6_TurkeyDescription'
+  Images:
+  - Value:
+      guid:
+        a: -934906379
+        b: 1258598457
+        c: 1335720347
+        d: 598072120
+    serializableKey: Picto
+  Color: {r: 0.7529412, g: 0.8509804, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &-2577015285697908118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era1_Upgrade_Builder
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_BuilderTitle'
+  Description: '%LegacyTrait_Upgrade_BuilderDescription'
+  Images:
+  - Value:
+      guid:
+        a: 880009794
+        b: 1307209199
+        c: -1634432128
+        d: -464442426
+    serializableKey: Picto
+  Color: {r: 0.8509804, g: 0.45490196, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &-2485086615393421549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era1_EgyptianKingdom
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era1_EgyptianKingdomTitle'
+  Description: '%LegacyTrait_Era1_EgyptianKingdomDescription'
+  Images:
+  - Value:
+      guid:
+        a: 216147784
+        b: 1304309210
+        c: -1602481273
+        d: 1542206281
+    serializableKey: Picto
+  Color: {r: 0.8509804, g: 0.45490196, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &-2466916226604304832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era5_RussianEmpire
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era5_RussianEmpireTitle'
+  Description: '%LegacyTrait_Era5_RussianEmpireDescription'
+  Images:
+  - Value:
+      guid:
+        a: -769853308
+        b: 1149385250
+        c: 1994392235
+        d: 1780949222
+    serializableKey: Picto
+  Color: {r: 0.78039217, g: 0.21960784, b: 0.28627452, a: 1}
+  Symbol: 
+--- !u!114 &-2037858631227733414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era2_AncientGreece
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era2_AncientGreeceTitle'
+  Description: '%LegacyTrait_Era2_AncientGreeceDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1498882830
+        b: 1193919851
+        c: -264294996
+        d: 474351959
+    serializableKey: Picto
+  Color: {r: 0.1882353, g: 0.8509804, b: 0.8235294, a: 1}
+  Symbol: 
+--- !u!114 &-1765825687265774509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era5_Siam
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era5_SiamTitle'
+  Description: '%LegacyTrait_Era5_SiamDescription'
+  Images:
+  - Value:
+      guid:
+        a: 216147784
+        b: 1304309210
+        c: -1602481273
+        d: 1542206281
+    serializableKey: Picto
+  Color: {r: 0.8509804, g: 0.45490196, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &-1526035135368414389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era2_RomanEmpire
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era2_RomanEmpireTitle'
+  Description: '%LegacyTrait_Era2_RomanEmpireDescription'
+  Images:
+  - Value:
+      guid:
+        a: -769853308
+        b: 1149385250
+        c: 1994392235
+        d: 1780949222
+    serializableKey: Picto
+  Color: {r: 0.78039217, g: 0.21960784, b: 0.28627452, a: 1}
+  Symbol: 
+--- !u!114 &-1274944111611525991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era5_Upgrade_Builder
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_BuilderTitle'
+  Description: '%LegacyTrait_Upgrade_BuilderDescription'
+  Images:
+  - Value:
+      guid:
+        a: 880009794
+        b: 1307209199
+        c: -1634432128
+        d: -464442426
+    serializableKey: Picto
+  Color: {r: 0.8509804, g: 0.45490196, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &-1201849183073836767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era4_Upgrade_Diplomat
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_DiplomatTitle'
+  Description: '%LegacyTrait_Upgrade_DiplomatDescription'
+  Images:
+  - Value:
+      guid:
+        a: -2132889035
+        b: 1280484260
+        c: -722070594
+        d: -1662637284
+    serializableKey: Picto
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: 
+--- !u!114 &-1172775372841197309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era6_Sweden
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era6_SwedenTitle'
+  Description: '%LegacyTrait_Era6_SwedenDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1498882830
+        b: 1193919851
+        c: -264294996
+        d: 474351959
+    serializableKey: Picto
+  Color: {r: 0.1882353, g: 0.8509804, b: 0.8235294, a: 1}
+  Symbol: 
+--- !u!114 &-1167067907722087367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era5_Italy
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era5_ItalyTitle'
+  Description: '%LegacyTrait_Era5_ItalyDescription'
+  Images:
+  - Value:
+      guid:
+        a: 1780286359
+        b: 1176728212
+        c: 1016234628
+        d: 511107686
+    serializableKey: Picto
+  Color: {r: 0.83137256, g: 0.09411765, b: 0.40392157, a: 1}
+  Symbol: 
+--- !u!114 &-1151910604915109806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era3_HolyRomanEmpire
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era3_HolyRomanEmpireTitle'
+  Description: '%LegacyTrait_Era3_HolyRomanEmpireDescription'
+  Images:
+  - Value:
+      guid:
+        a: 385920210
+        b: 1231726544
+        c: -1810738253
+        d: 558251492
+    serializableKey: Picto
+  Color: {r: 0.8509804, g: 0.6627451, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &-1056818730472928648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era5_Upgrade_Farmer
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_FarmerTitle'
+  Description: '%LegacyTrait_Upgrade_FarmerDescription'
+  Images:
+  - Value:
+      guid:
+        a: 490243640
+        b: 1195892029
+        c: -1605345890
+        d: -881986316
+    serializableKey: Picto
+  Color: {r: 0.7529412, g: 0.8509804, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &-832718082935770243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era4_Holland
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era4_HollandTitle'
+  Description: '%LegacyTrait_Era4_HollandDescription'
+  Images:
+  - Value:
+      guid:
+        a: 385920210
+        b: 1231726544
+        c: -1810738253
+        d: 558251492
+    serializableKey: Picto
+  Color: {r: 0.8509804, g: 0.6627451, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &-798655202687672782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era2_Carthage
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era2_CarthageTitle'
+  Description: '%LegacyTrait_Era2_CarthageDescription'
+  Images:
+  - Value:
+      guid:
+        a: 385920210
+        b: 1231726544
+        c: -1810738253
+        d: 558251492
+    serializableKey: Picto
+  Color: {r: 0.8509804, g: 0.6627451, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &-761949249351882471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era3_KhmerEmpire
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era3_KhmerEmpireTitle'
+  Description: '%LegacyTrait_Era3_KhmerEmpireDescription'
+  Images:
+  - Value:
+      guid:
+        a: 216147784
+        b: 1304309210
+        c: -1602481273
+        d: 1542206281
+    serializableKey: Picto
+  Color: {r: 0.8509804, g: 0.45490196, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &-613423862316374006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era3_Upgrade
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era3_UpgradeTitle'
+  Description: '%LegacyTrait_Era3_UpgradeDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1788513740
+        b: 1125542224
+        c: -731982680
+        d: -915074027
+    serializableKey: Picto
+  Color: {r: 1, g: 0.8117647, b: 0.5294118, a: 1}
+  Symbol: 
+--- !u!114 &-577083985813810003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era2_Upgrade_Diplomat
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_DiplomatTitle'
+  Description: '%LegacyTrait_Upgrade_DiplomatDescription'
+  Images:
+  - Value:
+      guid:
+        a: -2132889035
+        b: 1280484260
+        c: -722070594
+        d: -1662637284
+    serializableKey: Picto
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: 
+--- !u!114 &-168721118402502158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era1_Upgrade_Expansionist
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_ExpansionistTitle'
+  Description: '%LegacyTrait_Upgrade_ExpansionistDescription'
+  Images:
+  - Value:
+      guid:
+        a: -458373838
+        b: 1279209046
+        c: -1703184749
+        d: 1703036605
+    serializableKey: Picto
+  Color: {r: 0.83137256, g: 0.09411765, b: 0.40392157, a: 1}
+  Symbol: 
+--- !u!114 &-161478214391056709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era4_Upgrade_Farmer
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_FarmerTitle'
+  Description: '%LegacyTrait_Upgrade_FarmerDescription'
+  Images:
+  - Value:
+      guid:
+        a: 490243640
+        b: 1195892029
+        c: -1605345890
+        d: -881986316
+    serializableKey: Picto
+  Color: {r: 0.7529412, g: 0.8509804, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 763423559, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTraitUIMappers
+  m_EditorClassIdentifier: 
+--- !u!114 &56521423747494213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era0_Food
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era0_FoodTitle'
+  Description: 
+  Images:
+  - Value:
+      guid:
+        a: -934906379
+        b: 1258598457
+        c: 1335720347
+        d: 598072120
+    serializableKey: Picto
+  Color: {r: 0.7529412, g: 0.8509804, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &219088064186206070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era6_China
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era6_ChinaTitle'
+  Description: '%LegacyTrait_Era6_ChinaDescription'
+  Images:
+  - Value:
+      guid:
+        a: 385920210
+        b: 1231726544
+        c: -1810738253
+        d: 558251492
+    serializableKey: Picto
+  Color: {r: 0.8509804, g: 0.6627451, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &400561454442943921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era5_ZuluKingdom
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era5_ZuluKingdomTitle'
+  Description: '%LegacyTrait_Era5_ZuluKingdomDescription'
+  Images:
+  - Value:
+      guid:
+        a: -769853308
+        b: 1149385250
+        c: 1994392235
+        d: 1780949222
+    serializableKey: Picto
+  Color: {r: 0.78039217, g: 0.21960784, b: 0.28627452, a: 1}
+  Symbol: 
+--- !u!114 &511268158438006145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era3_Vikings
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era3_VikingsTitle'
+  Description: '%LegacyTrait_Era3_VikingsDescription'
+  Images:
+  - Value:
+      guid:
+        a: -275335033
+        b: 1292433972
+        c: -209681272
+        d: -1582457198
+    serializableKey: Picto
+  Color: {r: 0.78039217, g: 0.21960784, b: 0.28627452, a: 1}
+  Symbol: 
+--- !u!114 &845386565719761934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era5_BritishEmpire
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era5_BritishEmpireTitle'
+  Description: '%LegacyTrait_Era5_BritishEmpireDescription'
+  Images:
+  - Value:
+      guid:
+        a: 385920210
+        b: 1231726544
+        c: -1810738253
+        d: 558251492
+    serializableKey: Picto
+  Color: {r: 0.8509804, g: 0.6627451, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &898641399503667209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era5_Upgrade
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era5_UpgradeTitle'
+  Description: '%LegacyTrait_Era5_UpgradeDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1788513740
+        b: 1125542224
+        c: -731982680
+        d: -915074027
+    serializableKey: Picto
+  Color: {r: 1, g: 0.8117647, b: 0.5294118, a: 1}
+  Symbol: 
+--- !u!114 &1341441377364128224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era1_Babylon
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era1_BabylonTitle'
+  Description: '%LegacyTrait_Era1_BabylonDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1498882830
+        b: 1193919851
+        c: -264294996
+        d: 474351959
+    serializableKey: Picto
+  Color: {r: 0.1882353, g: 0.8509804, b: 0.8235294, a: 1}
+  Symbol: 
+--- !u!114 &1696533734829713682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era1_HittiteEmpire
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era1_HittiteEmpireTitle'
+  Description: '%LegacyTrait_Era1_HittiteEmpireDescription'
+  Images:
+  - Value:
+      guid:
+        a: -769853308
+        b: 1149385250
+        c: 1994392235
+        d: 1780949222
+    serializableKey: Picto
+  Color: {r: 0.7803922, g: 0.21960786, b: 0.28627452, a: 1}
+  Symbol: 
+--- !u!114 &1887245917295631461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era5_Upgrade_Warmonger
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_WarmongerTitle'
+  Description: '%LegacyTrait_Upgrade_ScientistDescription'
+  Images:
+  - Value:
+      guid:
+        a: 794240055
+        b: 1097524512
+        c: -2130518892
+        d: 175436644
+    serializableKey: Picto
+  Color: {r: 0.78039217, g: 0.21960784, b: 0.28627452, a: 1}
+  Symbol: 
+--- !u!114 &1967123458468683817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era5_Upgrade_Diplomat
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_DiplomatTitle'
+  Description: '%LegacyTrait_Upgrade_DiplomatDescription'
+  Images:
+  - Value:
+      guid:
+        a: -2132889035
+        b: 1280484260
+        c: -722070594
+        d: -1662637284
+    serializableKey: Picto
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: 
+--- !u!114 &2123103033839643779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era2_AksumiteEmpire
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era2_AksumiteEmpireTitle'
+  Description: '%LegacyTrait_Era2_AksumiteEmpireDescription'
+  Images:
+  - Value:
+      guid:
+        a: 385920210
+        b: 1231726544
+        c: -1810738253
+        d: 558251492
+    serializableKey: Picto
+  Color: {r: 0.8509804, g: 0.6627451, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &2852536318356207815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era5_FrenchRepublic
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era5_FrenchRepublicTitle'
+  Description: '%LegacyTrait_Era5_FrenchRepublicDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1498882830
+        b: 1193919851
+        c: -264294996
+        d: 474351959
+    serializableKey: Picto
+  Color: {r: 0.1882353, g: 0.8509804, b: 0.8235294, a: 1}
+  Symbol: 
+--- !u!114 &2912927913135063253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era2_Persia
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era2_PersiaTitle'
+  Description: '%LegacyTrait_Era2_PersiaDescription'
+  Images:
+  - Value:
+      guid:
+        a: 1534019430
+        b: 1134852791
+        c: 1727482279
+        d: 1612160866
+    serializableKey: Picto
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: 
+--- !u!114 &3188729948327198229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era4_TokugawaShogunate
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era4_TokugawaShogunateTitle'
+  Description: '%LegacyTrait_Era4_TokugawaShogunateDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1401866393
+        b: 1312528497
+        c: -959632726
+        d: 298800247
+    serializableKey: Picto
+  Color: {r: 0.6156863, g: 0.33333334, b: 0.84705883, a: 1}
+  Symbol: 
+--- !u!114 &3207930954567946502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era0_Influence
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era0_InfluenceTitle'
+  Description: 
+  Images:
+  - Value:
+      guid:
+        a: -1281135031
+        b: 1173288057
+        c: 798940332
+        d: -1301141564
+    serializableKey: Picto
+  Color: {r: 0.6156863, g: 0.33333334, b: 0.84705883, a: 1}
+  Symbol: 
+--- !u!114 &3220811815644160904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era3_Upgrade_Builder
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_BuilderTitle'
+  Description: '%LegacyTrait_Upgrade_BuilderDescription'
+  Images:
+  - Value:
+      guid:
+        a: 880009794
+        b: 1307209199
+        c: -1634432128
+        d: -464442426
+    serializableKey: Picto
+  Color: {r: 0.8509804, g: 0.45490196, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &3737270498443628402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era0_CombatStrength
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era0_CombatStrengthTitle'
+  Description: 
+  Images:
+  - Value:
+      guid:
+        a: 3847005
+        b: 1331995578
+        c: -1561534040
+        d: 2088307954
+    serializableKey: Picto
+  Color: {r: 0.78039217, g: 0.21960784, b: 0.28627452, a: 1}
+  Symbol: 
+--- !u!114 &3774325950069552591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era3_Upgrade_Cultural
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_CulturalTitle'
+  Description: '%LegacyTrait_Upgrade_CulturalDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1099159498
+        b: 1241880807
+        c: -1365990232
+        d: -73308376
+    serializableKey: Picto
+  Color: {r: 0.6156863, g: 0.33333334, b: 0.84705883, a: 1}
+  Symbol: 
+--- !u!114 &3819852810998127602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era5_Upgrade_Merchant
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_MerchantTitle'
+  Description: '%LegacyTrait_Upgrade_MerchantDescription'
+  Images:
+  - Value:
+      guid:
+        a: 2041966009
+        b: 1074468040
+        c: 1402071191
+        d: -1613440478
+    serializableKey: Picto
+  Color: {r: 0.8509804, g: 0.6627451, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &4025322350609562682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era1_Upgrade_Scientist
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_ScientistTitle'
+  Description: '%LegacyTrait_Upgrade_ScientistDescription'
+  Images:
+  - Value:
+      guid:
+        a: 798092062
+        b: 1294345974
+        c: 1334224023
+        d: -809356315
+    serializableKey: Picto
+  Color: {r: 0.1882353, g: 0.8509804, b: 0.8235294, a: 1}
+  Symbol: 
+--- !u!114 &4126901455339705150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era6_Brazil
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era6_BrazilTitle'
+  Description: '%LegacyTrait_Era6_BrazilDescription'
+  Images:
+  - Value:
+      guid:
+        a: -934906379
+        b: 1258598457
+        c: 1335720347
+        d: 598072120
+    serializableKey: Picto
+  Color: {r: 0.7529412, g: 0.8509804, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &4517557041380001699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era3_Upgrade_Diplomat
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_DiplomatTitle'
+  Description: '%LegacyTrait_Upgrade_DiplomatDescription'
+  Images:
+  - Value:
+      guid:
+        a: -2132889035
+        b: 1280484260
+        c: -722070594
+        d: -1662637284
+    serializableKey: Picto
+  Color: {r: 1, g: 1, b: 1, a: 1}
+  Symbol: 
+--- !u!114 &4532082853650717317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era4_PolishKingdom
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era4_PolishKingdomTitle'
+  Description: '%LegacyTrait_Era4_PolishKingdomDescription'
+  Images:
+  - Value:
+      guid:
+        a: -769853308
+        b: 1149385250
+        c: 1994392235
+        d: 1780949222
+    serializableKey: Picto
+  Color: {r: 0.78039217, g: 0.21960784, b: 0.28627452, a: 1}
+  Symbol: 
+--- !u!114 &4674281623820312835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era1_Upgrade_Warmonger
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_WarmongerTitle'
+  Description: '%LegacyTrait_Upgrade_ScientistDescription'
+  Images:
+  - Value:
+      guid:
+        a: 794240055
+        b: 1097524512
+        c: -2130518892
+        d: 175436644
+    serializableKey: Picto
+  Color: {r: 0.78039217, g: 0.21960784, b: 0.28627452, a: 1}
+  Symbol: 
+--- !u!114 &5004769927520194761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era6_Australia
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era6_AustraliaTitle'
+  Description: '%LegacyTrait_Era6_AustraliaDescription'
+  Images:
+  - Value:
+      guid:
+        a: 216147784
+        b: 1304309210
+        c: -1602481273
+        d: 1542206281
+    serializableKey: Picto
+  Color: {r: 0.8509804, g: 0.45490196, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &5703246689598449921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era3_MongolEmpire
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era3_MongolEmpireTitle'
+  Description: '%LegacyTrait_Era3_MongolEmpireDescription'
+  Images:
+  - Value:
+      guid:
+        a: -769853308
+        b: 1149385250
+        c: 1994392235
+        d: 1780949222
+    serializableKey: Picto
+  Color: {r: 0.78039217, g: 0.21960784, b: 0.28627452, a: 1}
+  Symbol: 
+--- !u!114 &5777572922614621165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era1_Phoenicia
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era1_PhoeniciaTitle'
+  Description: '%LegacyTrait_Era1_PhoeniciaDescription'
+  Images:
+  - Value:
+      guid:
+        a: 385920210
+        b: 1231726544
+        c: -1810738253
+        d: 558251492
+    serializableKey: Picto
+  Color: {r: 0.8509804, g: 0.6627451, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &5900000495998520363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era0_Money
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era0_MoneyTitle'
+  Description: 
+  Images:
+  - Value:
+      guid:
+        a: 385920210
+        b: 1231726544
+        c: -1810738253
+        d: 558251492
+    serializableKey: Picto
+  Color: {r: 0.8509804, g: 0.6627451, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &6021449035462655061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era2_MauryaEmpire
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era2_MauryaEmpireTitle'
+  Description: '%LegacyTrait_Era2_MauryaEmpireDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1401866393
+        b: 1312528497
+        c: -959632726
+        d: 298800247
+    serializableKey: Picto
+  Color: {r: 0.6156863, g: 0.33333334, b: 0.84705883, a: 1}
+  Symbol: 
+--- !u!114 &6226169192457327079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era6_Upgrade
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era6_UpgradeTitle'
+  Description: '%LegacyTrait_Era6_UpgradeDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1788513740
+        b: 1125542224
+        c: -731982680
+        d: -915074027
+    serializableKey: Picto
+  Color: {r: 1, g: 0.8117647, b: 0.5294118, a: 1}
+  Symbol: 
+--- !u!114 &6262103237657850600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era5_Germany
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era5_GermanyTitle'
+  Description: '%LegacyTrait_Era5_GermanyDescription'
+  Images:
+  - Value:
+      guid:
+        a: -769853308
+        b: 1149385250
+        c: 1994392235
+        d: 1780949222
+    serializableKey: Picto
+  Color: {r: 0.78039217, g: 0.21960784, b: 0.28627452, a: 1}
+  Symbol: 
+--- !u!114 &6270441129733406791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era1_Upgrade_Farmer
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_FarmerTitle'
+  Description: '%LegacyTrait_Upgrade_FarmerDescription'
+  Images:
+  - Value:
+      guid:
+        a: 490243640
+        b: 1195892029
+        c: -1605345890
+        d: -881986316
+    serializableKey: Picto
+  Color: {r: 0.7529412, g: 0.8509804, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &6428813292520994153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era3_GhanaEmpire
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era3_GhanaEmpireTitle'
+  Description: '%LegacyTrait_Era3_GhanaEmpireDescription'
+  Images:
+  - Value:
+      guid:
+        a: 385920210
+        b: 1231726544
+        c: -1810738253
+        d: 558251492
+    serializableKey: Picto
+  Color: {r: 0.8509804, g: 0.6627451, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &6484539187452043300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era1_OlmecCivilization
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era1_OlmecCivilizationTitle'
+  Description: '%LegacyTrait_Era1_OlmecCivilizationDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1401866393
+        b: 1312528497
+        c: -959632726
+        d: 298800247
+    serializableKey: Picto
+  Color: {r: 0.6156863, g: 0.33333334, b: 0.84705883, a: 1}
+  Symbol: 
+--- !u!114 &6512498845130677263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era4_IroquoisConfederacy
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era4_IroquoisConfederacyTitle'
+  Description: '%LegacyTrait_Era4_IroquoisConfederacyDescription'
+  Images:
+  - Value:
+      guid:
+        a: -934906379
+        b: 1258598457
+        c: 1335720347
+        d: 598072120
+    serializableKey: Picto
+  Color: {r: 0.7529412, g: 0.8509804, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &6582059826882420249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era0_Industry
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era0_IndustryTitle'
+  Description: 
+  Images:
+  - Value:
+      guid:
+        a: 216147784
+        b: 1304309210
+        c: -1602481273
+        d: 1542206281
+    serializableKey: Picto
+  Color: {r: 0.8509804, g: 0.45490196, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &6590900921440043654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era4_MughalEmpire
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era4_MughalEmpireTitle'
+  Description: '%LegacyTrait_Era4_MughalEmpireDescription'
+  Images:
+  - Value:
+      guid:
+        a: 216147784
+        b: 1304309210
+        c: -1602481273
+        d: 1542206281
+    serializableKey: Picto
+  Color: {r: 0.8509804, g: 0.45490196, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &7014835141571125031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era5_Upgrade_Expansionist
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_ExpansionistTitle'
+  Description: '%LegacyTrait_Upgrade_ExpansionistDescription'
+  Images:
+  - Value:
+      guid:
+        a: -458373838
+        b: 1279209046
+        c: -1703184749
+        d: 1703036605
+    serializableKey: Picto
+  Color: {r: 0.83137256, g: 0.09411765, b: 0.40392157, a: 1}
+  Symbol: 
+--- !u!114 &7066560623747894145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era1_MycenaeanCivilization
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era1_MycenaeanCivilizationTitle'
+  Description: '%LegacyTrait_Era1_MycenaeanCivilizationDescription'
+  Images:
+  - Value:
+      guid:
+        a: -769853308
+        b: 1149385250
+        c: 1994392235
+        d: 1780949222
+    serializableKey: Picto
+  Color: {r: 0.7803922, g: 0.21960786, b: 0.28627452, a: 1}
+  Symbol: 
+--- !u!114 &7107828590260884017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era5_AustriaHungary
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era5_AustriaHungaryTitle'
+  Description: '%LegacyTrait_Era5_AustriaHungaryDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1401866393
+        b: 1312528497
+        c: -959632726
+        d: 298800247
+    serializableKey: Picto
+  Color: {r: 0.6156863, g: 0.33333334, b: 0.84705883, a: 1}
+  Symbol: 
+--- !u!114 &7129680529061550127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era2_Upgrade_Warmonger
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_WarmongerTitle'
+  Description: '%LegacyTrait_Upgrade_ScientistDescription'
+  Images:
+  - Value:
+      guid:
+        a: 794240055
+        b: 1097524512
+        c: -2130518892
+        d: 175436644
+    serializableKey: Picto
+  Color: {r: 0.78039217, g: 0.21960784, b: 0.28627452, a: 1}
+  Symbol: 
+--- !u!114 &7203889411107430593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era2_Upgrade_Builder
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_BuilderTitle'
+  Description: '%LegacyTrait_Upgrade_BuilderDescription'
+  Images:
+  - Value:
+      guid:
+        a: 880009794
+        b: 1307209199
+        c: -1634432128
+        d: -464442426
+    serializableKey: Picto
+  Color: {r: 0.8509804, g: 0.45490196, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &7443032978665264297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era4_Upgrade_Scientist
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_ScientistTitle'
+  Description: '%LegacyTrait_Upgrade_ScientistDescription'
+  Images:
+  - Value:
+      guid:
+        a: 798092062
+        b: 1294345974
+        c: 1334224023
+        d: -809356315
+    serializableKey: Picto
+  Color: {r: 0.1882353, g: 0.8509804, b: 0.8235294, a: 1}
+  Symbol: 
+--- !u!114 &7494247165798526537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era3_Upgrade_Merchant
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_MerchantTitle'
+  Description: '%LegacyTrait_Upgrade_MerchantDescription'
+  Images:
+  - Value:
+      guid:
+        a: 2041966009
+        b: 1074468040
+        c: 1402071191
+        d: -1613440478
+    serializableKey: Picto
+  Color: {r: 0.8509804, g: 0.6627451, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &7501659069892556772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era2_Upgrade_Expansionist
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_ExpansionistTitle'
+  Description: '%LegacyTrait_Upgrade_ExpansionistDescription'
+  Images:
+  - Value:
+      guid:
+        a: -458373838
+        b: 1279209046
+        c: -1703184749
+        d: 1703036605
+    serializableKey: Picto
+  Color: {r: 0.83137256, g: 0.09411765, b: 0.40392157, a: 1}
+  Symbol: 
+--- !u!114 &7596888607700478709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era5_Mexico
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era5_MexicoTitle'
+  Description: '%LegacyTrait_Era5_MexicoDescription'
+  Images:
+  - Value:
+      guid:
+        a: -934906379
+        b: 1258598457
+        c: 1335720347
+        d: 598072120
+    serializableKey: Picto
+  Color: {r: 0.7529412, g: 0.8509804, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &7641984118129371658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era3_AztecEmpire
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era3_AztecEmpireTitle'
+  Description: '%LegacyTrait_Era3_AztecEmpireDescription'
+  Images:
+  - Value:
+      guid:
+        a: 216147784
+        b: 1304309210
+        c: -1602481273
+        d: 1542206281
+    serializableKey: Picto
+  Color: {r: 0.8509804, g: 0.45490196, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &7953044601167224191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era2_Upgrade_Merchant
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_MerchantTitle'
+  Description: '%LegacyTrait_Upgrade_MerchantDescription'
+  Images:
+  - Value:
+      guid:
+        a: 2041966009
+        b: 1074468040
+        c: 1402071191
+        d: -1613440478
+    serializableKey: Picto
+  Color: {r: 0.8509804, g: 0.6627451, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &8005841786075190454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era4_OttomanEmpire
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era4_OttomanEmpireTitle'
+  Description: '%LegacyTrait_Era4_OttomanEmpireDescription'
+  Images:
+  - Value:
+      guid:
+        a: -769853308
+        b: 1149385250
+        c: 1994392235
+        d: 1780949222
+    serializableKey: Picto
+  Color: {r: 0.7803922, g: 0.21960786, b: 0.28627452, a: 1}
+  Symbol: 
+--- !u!114 &8255863119933390771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era0_DefaultTribe
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era0_DefaultTribeTitle'
+  Description: '%LegacyTrait_Era0_DefaultTribeDescription'
+  Images:
+  - Value:
+      guid:
+        a: 1336461967
+        b: 1306019556
+        c: -156222034
+        d: 1128449873
+    serializableKey: Picto
+  Color: {r: 1, g: 0, b: 1, a: 1}
+  Symbol: 
+--- !u!114 &8282429549559507687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era5_AfsharidPersia
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era5_AfsharidPersiaTitle'
+  Description: '%LegacyTrait_Era5_AfsharidPersiaDescription'
+  Images:
+  - Value:
+      guid:
+        a: 216147784
+        b: 1304309210
+        c: -1602481273
+        d: 1542206281
+    serializableKey: Picto
+  Color: {r: 0.8509804, g: 0.45490196, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &8343427461638175570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era5_Upgrade_Cultural
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_CulturalTitle'
+  Description: '%LegacyTrait_Upgrade_CulturalDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1099159498
+        b: 1241880807
+        c: -1365990232
+        d: -73308376
+    serializableKey: Picto
+  Color: {r: 0.6156863, g: 0.33333334, b: 0.84705883, a: 1}
+  Symbol: 
+--- !u!114 &8357516258877388853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era1_Assyria
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era1_AssyriaTitle'
+  Description: '%LegacyTrait_Era1_AssyriaDescription'
+  Images:
+  - Value:
+      guid:
+        a: -769853308
+        b: 1149385250
+        c: 1994392235
+        d: 1780949222
+    serializableKey: Picto
+  Color: {r: 0.78039217, g: 0.21960784, b: 0.28627452, a: 1}
+  Symbol: 
+--- !u!114 &8418971156803016392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era6_Japan
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era6_JapanTitle'
+  Description: '%LegacyTrait_Era6_JapanDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1498882830
+        b: 1193919851
+        c: -264294996
+        d: 474351959
+    serializableKey: Picto
+  Color: {r: 0.1882353, g: 0.8509804, b: 0.8235294, a: 1}
+  Symbol: 
+--- !u!114 &8511766535412574042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era2_Upgrade_Farmer
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_FarmerTitle'
+  Description: '%LegacyTrait_Upgrade_FarmerDescription'
+  Images:
+  - Value:
+      guid:
+        a: 490243640
+        b: 1195892029
+        c: -1605345890
+        d: -881986316
+    serializableKey: Picto
+  Color: {r: 0.7529412, g: 0.8509804, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &8988482555752040375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era5_Upgrade_Scientist
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_ScientistTitle'
+  Description: '%LegacyTrait_Upgrade_ScientistDescription'
+  Images:
+  - Value:
+      guid:
+        a: 798092062
+        b: 1294345974
+        c: 1334224023
+        d: -809356315
+    serializableKey: Picto
+  Color: {r: 0.1882353, g: 0.8509804, b: 0.8235294, a: 1}
+  Symbol: 
+--- !u!114 &9015322107503240002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era2_MayaCivilization
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Era2_MayaCivilizationTitle'
+  Description: '%LegacyTrait_Era2_MayaCivilizationDescription'
+  Images:
+  - Value:
+      guid:
+        a: 216147784
+        b: 1304309210
+        c: -1602481273
+        d: 1542206281
+    serializableKey: Picto
+  Color: {r: 0.8509804, g: 0.45490196, b: 0.1882353, a: 1}
+  Symbol: 
+--- !u!114 &9161334522280973290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 981126955, guid: f8c4d2d2a3a246a0909e3c6973d4a4e3, type: 3}
+  m_Name: LegacyTrait_Era4_Upgrade_Cultural
+  m_EditorClassIdentifier: 
+  Title: '%LegacyTrait_Upgrade_CulturalTitle'
+  Description: '%LegacyTrait_Upgrade_CulturalDescription'
+  Images:
+  - Value:
+      guid:
+        a: -1099159498
+        b: 1241880807
+        c: -1365990232
+        d: -73308376
+    serializableKey: Picto
+  Color: {r: 0.6156863, g: 0.33333334, b: 0.84705883, a: 1}
+  Symbol: 

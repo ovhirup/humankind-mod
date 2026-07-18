@@ -466,6 +466,60 @@ Next step: create Bharat's own unique **Legacy Trait** (currently still
 referencing India's, "1 items" in the Legacy Trait References field) —
 the "Mother Industries" mechanical identity from DESIGN.md.
 
+### "Mother Industries" mechanic built (2026-07-19)
+
+Imported `LegacyTrait`, `LegacyTraitDescriptor`, `LegacyTraitUIMappers`
+collections (359 elements via Bulk Override — same technique as before).
+Duplicated India's chain and rewired it end to end:
+
+- `LegacyTrait_Era6_India` → duplicated → **`LegacyTrait_Era6_Bharat`**.
+  `Civilization_Era6_Bharat`'s "Legacy Trait References" field
+  auto-followed the rename to point at the new object (didn't need manual
+  re-pointing — object references survive a rename of the referenced
+  asset, at least within the same collection asset file).
+- `Effect_LegacyTrait_Era6_India` (in `LegacyTraitDescriptor`) → duplicated
+  → **`Effect_LegacyTrait_Era6_Bharat`**. Manually re-pointed
+  `LegacyTrait_Era6_Bharat`'s "Descriptor" field to it (this reference did
+  NOT auto-follow — inconsistent with the CivilizationDefinition
+  behavior above, worth remembering: don't assume renames propagate,
+  always verify).
+
+**India's actual real bonus** (found by inspecting the descriptor's
+"Effects" list before changing anything — useful precedent data):
+1. Territory-level: `Add DistrictIndustryNet... ` — no wait, actually
+   `Add CultureProduced +5` per Territory (path
+   `MajorEmpire.Settlements.Region.Territories`).
+2. Capital-only (gated by a Validation: `Settlements Must Have
+   GameEffect_CityFlags_Capital`): `Percent ProductionNet` — no, originally
+   `Percent MoneyNet` at `0.03 * Source.NumberOfCulturallyControlledTerritory`
+   (path `MajorEmpire.Settlements`). The "Money Per Influenced Territory"
+   text shown on the separate `Capabilities` dropdown field (on
+   `LegacyTrait`, not the Descriptor) is just a display/category label —
+   it does NOT reflect the actual live effect values; always check the
+   Descriptor's real `Effects` list, not the Capabilities label.
+
+**Bharat's redesigned bonus** ("Mother Industries" — self-reliant planned
+industrialization):
+1. Territory-level: `Add DistrictIndustryNet +5` (swapped
+   `CultureProduced` → `DistrictIndustryNet`, kept the +5 magnitude and
+   per-Territory scope). Confirmed `DistrictIndustryNet` is Humankind's
+   real internal name for a District's net Production/Industry yield.
+2. Capital-only: `Percent ProductionNet` at
+   `0.03 * Source.NumberOfCulturallyControlledTerritory` (swapped
+   `MoneyNet` → `ProductionNet`, kept the same scaling formula and the
+   Capital-only gate) — a production bonus that grows with the empire's
+   cultural reach, matching the National Planning Committee's
+   state-planned-industrialization theme.
+
+Both fields are simple dropdown swaps once you find the right property
+name — the formula/expression field (`0.03 * Source....`) did not need
+touching, it's a live expression referencing whatever property populates
+the row, so the multiplier and scaling logic carried over automatically.
+
+Not yet done: `LegacyTraitUIMappers` entry for Bharat (the trait's own
+display name/description, parallel to what we did for
+`CivilizationUIMappers`) — still pending.
+
 ### First real artifact created (2026-07-19): `Civilization_Era6_Bharat`
 
 Imported the full `CivilizationDefinition` collection (61 elements, via

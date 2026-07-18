@@ -16,3 +16,8 @@
 # Large exported mod artifacts (rebuildable from source)
 *.assetbundle
 *.hmap
+
+# Amplitude's own vendored Mod Tools SDK code (comes with every mod
+# project via "Initialize Mod" - not our authored content, regenerable)
+unity-project/Assets/\[Amplitude.Framework\]/
+unity-project/Assets/\[Amplitude.Mercury\]/

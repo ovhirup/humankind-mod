@@ -3582,7 +3582,7 @@ MonoBehaviour:
   IsDeprecated: 0
   GameplayOrientation: 4
   LegacyTraitReferences:
-  - serializableElementName: LegacyTrait_Era6_India
+  - serializableElementName: LegacyTrait_Era6_Bharat
   TraitReferences: []
   FactionAffinityReference:
     serializableElementName: Builder
