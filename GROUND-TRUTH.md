@@ -300,6 +300,59 @@ via BepInEx instead of authoring a new one — a much smaller, more
 BepInEx-tractable target (modifying field values and text on an
 already-loaded object, not constructing a new object graph). This decision
 is now unblocked for the user to make; see DESIGN.md.
+
+### Resolved (2026-07-19): Option A (Windows VM) chosen and confirmed working
+
+Built a **free** Windows VM: UTM (no license cost) + Windows 11 ARM64
+(official Microsoft ISO, unactivated — no license purchased) on this Mac.
+Full path, in order:
+
+1. Installed UTM via `brew install --cask utm`.
+2. Downloaded the official Windows 11 Arm64 multi-edition ISO directly from
+   `microsoft.com/en-us/software-download/windows11arm64` (Microsoft's page
+   blocks scripted `curl` with bot protection — had to drive it through a
+   real browser to get the actual signed, time-limited download URL).
+   Confirmed size (7,994,415,104 bytes) and valid bootable ISO 9660 format.
+3. Created the VM in UTM: **Virtualize** (not Emulate — real ARM64 speed,
+   not x86 emulation), ARM64 architecture, 8GB RAM, 100GB disk, a shared
+   directory pointed at `~/dev/humankind-mod` for moving files between
+   macOS and the VM.
+4. Installed Windows 11 Pro with **"I don't have a product key"** — free/
+   unactivated test path, exactly as scoped.
+5. One-time gotcha: first boot dropped to a UEFI shell instead of
+   auto-booting the ISO — fixed by manually running
+   `FS0:` → `\EFI\BOOT\BOOTAA64.EFI`. A second gotcha: after Windows
+   Setup's first reboot, the VM re-booted the installer ISO from scratch
+   instead of the installed disk — fixed by ejecting the ISO from UTM's
+   CD/DVD menu and restarting.
+6. Installed Steam inside the VM, logged into the same Steam account,
+   installed **"Humankind Mod Tools"** from Library → Tools (fast — it's
+   only 86.1MB), then installed the base **Humankind** game itself inside
+   the VM the same way. Steam used its **local-network game transfer**
+   feature to copy the already-downloaded Mac game files to the VM over
+   LAN instead of re-downloading from the internet — much faster than a
+   fresh download, though still slow in the "Installing files" phase due
+   to virtualized disk I/O overhead (expected/normal for a VM, not a real
+   problem).
+7. Launched Humankind Mod Tools → Unity 2021.3.1f1 Personal opened with the
+   Mod Editor, `Amplitude`/`Mercury` custom menus, and the
+   Profile/Content/Build/Publish tab structure exactly as the official
+   guide describes.
+8. Activated a free **Unity Personal** license (non-professional use) —
+   required separately from just having a Unity account.
+9. Pointed the Mod Editor at the Windows game install
+   (`C:\Program Files (x86)\Steam\steamapps\common\Humankind`) and Mod
+   Tools folder — **confirmed: "Your project is in a stable state,"**
+   versions matched, and the console log shows real asset bundles mounting
+   (`mercurydatabases.assetbundle`, `terrain.*.assetbundle`,
+   `ui_textures.assetbundle`).
+
+**Verdict: the official Mod Editor genuinely works under UTM
+virtualization on this Apple Silicon Mac, for $0.** No Parallels purchase
+or Windows license needed for at least this much of the workflow. Next
+untested step: "2. Content" tab → "Import from Archives" to actually pull
+in the Civilizations collections and start building the `FactionDefinition`
+for Bharat, per §10 of the official guide.
 - [ ] Since the Unity-Editor "Import from Archives" categories
       (LandUnit/Descriptors/Definitions/UIMappers) are no longer directly
       reachable, figure out whether BepInEx-based mods can read/patch these
